@@ -9,15 +9,15 @@ export default function SubscriptionPlans() {
 
   const plans = [
     {
-      name: "ECONOMIC",
+      name: "ECONIMIC",
       price: "$79",
       period: "per month",
       features: [
-        "1 user (economist)",
-        "100 counterparty account",
+        "1 user (expandable)",
+        "150 counterparty account",
         "Basic reports",
         "Ticket support",
-        "+$50 per additional user",
+        "+$59 per additional user",
       ],
       isHighlighted: false,
     },
@@ -26,11 +26,11 @@ export default function SubscriptionPlans() {
       price: "$499",
       period: "per month",
       features: [
-        "Unlimited users",
+        "Unlimited user",
         "Unlimited counterparty",
         "All reports + Analysis tools",
         "Phone + Ticket support",
-        "+$50 per additional user",
+        "+$59 per additional user",
       ],
       isHighlighted: true,
     },
@@ -39,11 +39,11 @@ export default function SubscriptionPlans() {
       price: "$199",
       period: "per month",
       features: [
-        "3 user (economist)",
+        "3 user (expandable)",
         "Unlimited counterparty",
         "Basic + Advanced reports",
         "Ticket support",
-        "+$30 per additional user",
+        "+$59 per additional user",
       ],
       isHighlighted: false,
     },
@@ -61,115 +61,113 @@ export default function SubscriptionPlans() {
         </div>
 
         {/* Period Tabs */}
-        <div className="flex items-center justify-center gap-2 mb-12">
+        <div className="flex items-center justify-center gap-6 mb-12">
           <button
             onClick={() => setSelectedPeriod("1month")}
-            className={`px-8 py-3 rounded-lg font-semibold transition-all ${
-              selectedPeriod === "1month"
-                ? "bg-teal-500 text-white shadow-lg"
-                : "bg-white text-gray-700 hover:bg-gray-50"
-            }`}
+            className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1month"
+              ? "bg-teal-500 text-white shadow-lg"
+              : "bg-white text-gray-700 hover:bg-gray-50"
+              }`}
           >
             1 Month
           </button>
           <button
             onClick={() => setSelectedPeriod("3month")}
-            className={`px-8 py-3 rounded-lg font-semibold transition-all ${
-              selectedPeriod === "3month"
-                ? "bg-teal-500 text-white shadow-lg"
-                : "bg-white text-gray-700 hover:bg-gray-50"
-            }`}
+            className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "3month"
+              ? "bg-teal-500 text-white shadow-lg"
+              : "bg-white text-gray-700 hover:bg-gray-50"
+              }`}
           >
             3 Month
           </button>
           <button
             onClick={() => setSelectedPeriod("1year")}
-            className={`px-8 py-3 rounded-lg font-semibold transition-all ${
-              selectedPeriod === "1year"
-                ? "bg-teal-500 text-white shadow-lg"
-                : "bg-white text-gray-700 hover:bg-gray-50"
-            }`}
+            className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1year"
+              ? "bg-teal-500 text-white shadow-lg"
+              : "bg-white text-gray-700 hover:bg-gray-50"
+              }`}
           >
             1 Year
           </button>
         </div>
 
-        {/* Plans Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
-          {plans.map((plan, index) => (
-            <div key={index} className="flex flex-col">
-              <div
-                className={`rounded-3xl overflow-hidden mb-6 ${
-                  plan.isHighlighted
-                    ? "shadow-2xl transform md:scale-105"
-                    : "shadow-lg hover:shadow-xl transition-shadow"
-                }`}
-              >
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {plans.map((plan) => (
                 <div
-                  className={`p-8 ${
-                    plan.isHighlighted
-                      ? "bg-gradient-to-br from-orange-300 via-pink-300 to-purple-400 text-white"
-                      : "bg-white text-gray-900"
-                  }`}
+                  key={plan.name}
+                  className="flex flex-col items-center"
                 >
-                  {/* Plan Header */}
-                  <div className="text-center mb-6">
-                    <h3
-                      className={`text-xs font-bold tracking-wider mb-3 uppercase ${
-                        plan.isHighlighted ? "text-white" : "text-gray-600"
-                      }`}
-                    >
-                      {plan.name}
-                    </h3>
-                    <div className="mb-2">
-                      <span className="text-5xl font-bold">{plan.price}</span>
-                    </div>
-                    <p
-                      className={`text-sm ${
-                        plan.isHighlighted ? "text-white/90" : "text-gray-500"
-                      }`}
-                    >
-                      {plan.period}
-                    </p>
-                  </div>
-
-                  {/* Features List */}
-                  <ul className="space-y-3">
-                    {plan.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start gap-2 text-sm">
+                  <div
+                    className={`rounded-3xl shadow-lg w-full max-w-sm p-8 ${
+                      plan.isHighlighted
+                        ? "bg-gradient-to-br from-orange-300 via-pink-300 to-purple-400 text-white"
+                        : "bg-white"
+                    }`}
+                  >
+                    <div className="flex flex-col items-center">
+                      <h3
+                        className={`text-2xl font-bold mb-4 ${
+                          plan.isHighlighted ? "text-white" : "text-gray-800"
+                        }`}
+                      >
+                        {plan.name}
+                      </h3>
+                      <div className="mb-4">
                         <span
-                          className={`mt-1 flex-shrink-0 ${
-                            plan.isHighlighted ? "text-white" : "text-gray-400"
+                          className={`text-5xl font-bold ${
+                            plan.isHighlighted ? "text-white" : "text-gray-800"
                           }`}
                         >
-                          •
+                          {plan.price}
                         </span>
-                        <span
-                          className={
-                            plan.isHighlighted ? "text-white/95" : "text-gray-600"
-                          }
-                        >
-                          {feature}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+                      </div>
+                      <p
+                        className={`mb-6 text-sm ${
+                          plan.isHighlighted
+                            ? "text-white/90"
+                            : "text-gray-600"
+                        }`}
+                      >
+                        {plan.period}
+                      </p>
+                    </div>
+                    <div
+                      className={`rounded-xl p-6 mb-6 ${
+                        plan.isHighlighted
+                          ? "bg-white/20"
+                          : "bg-[#F5F3ED]"
+                      }`}
+                    >
+                      <ul className="space-y-3">
+                        {plan.features.map((feature, index) => (
+                          <li
+                            key={index}
+                            className={`flex items-start text-sm ${
+                              plan.isHighlighted
+                                ? "text-white"
+                                : "text-gray-800"
+                            }`}
+                          >
+                            <span
+                              className={`w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0 ${
+                                plan.isHighlighted
+                                  ? "bg-white"
+                                  : "bg-gray-800"
+                              }`}
+                            ></span>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <button className="mt-6 bg-orange-400 hover:bg-orange-500 text-white rounded-full transition-colors w-[150px] h-[50px] mx-auto">
+                    Select Plan
+                  </button>
                 </div>
-                
-                {/* Bottom Border for Highlighted Plan */}
-                {plan.isHighlighted && (
-                  <div className="h-3 bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500" />
-                )}
-              </div>
-
-              {/* Select Button - Outside the card */}
-              <button
-                className="w-full py-3 rounded-full font-semibold transition-all bg-gradient-to-r from-yellow-400 to-orange-400 text-white hover:from-yellow-500 hover:to-orange-500 shadow-lg"
-              >
-                Select Plan
-              </button>
+              ))}
             </div>
-          ))}
         </div>
       </div>
     </section>

@@ -18,22 +18,17 @@ export default function ServerUptime() {
         </div>
 
         {/* Uptime Chart */}
-        <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
           {/* Tooltip (positioned absolutely, shown on hover) */}
-          <div className="relative mb-8">
-            <div className="absolute left-1/3 -top-4 bg-white shadow-lg rounded-lg px-4 py-2 text-sm font-medium text-gray-700 border border-gray-200">
-              2025/04/12 <span className="ml-2 font-bold">100.0%</span>
-            </div>
-          </div>
+         
 
           {/* Bar Chart */}
           <div className="relative">
             {/* Bars Container */}
-            <div className="flex items-end justify-between gap-[2px] h-32 mb-4">
+            <div className="flex items-end justify-between gap-[4px] h-32 mb-4">
               {uptimeDays.map((day) => (
                 <div
                   key={day.day}
-                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 rounded-sm transition-colors cursor-pointer group relative"
+                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 hover:scale-110 rounded-sm transition-colors cursor-pointer group relative"
                   style={{ height: `${day.uptime}%` }}
                   title={`${day.date.toLocaleDateString()} - ${day.uptime}%`}
                 >
@@ -51,7 +46,6 @@ export default function ServerUptime() {
               <span>Today</span>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

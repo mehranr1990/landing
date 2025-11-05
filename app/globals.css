@@ -24,3 +24,6 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.bg-gradient-download-app {
+  background: linear-gradient(90deg,rgba(255, 175, 27, 1) 0%, rgba(182, 99, 255, 1) 87%, rgba(255, 175, 27, 1) 100%);
+}

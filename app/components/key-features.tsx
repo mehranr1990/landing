@@ -1,58 +1,38 @@
+import Image from "next/image";
 export default function KeyFeatures() {
   const features = [
     {
       title: "Secure Trading",
       description: "Advanced security features for safe trading",
       icon: (
-        <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="10" y="14" width="28" height="24" rx="3" stroke="currentColor" strokeWidth="2.5" fill="none" />
-          <circle cx="24" cy="26" r="4" stroke="currentColor" strokeWidth="2.5" fill="none" />
-          <path d="M24 30v4" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-          <rect x="18" y="8" width="12" height="8" rx="2" stroke="currentColor" strokeWidth="2.5" fill="none" />
-        </svg>
+        <Image src="/icons/card-coin.png" alt="support" width={50} height={50} />
       ),
     },
     {
       title: "Fast Processing",
       description: "Lightning-fast transaction processing",
       icon: (
-        <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="8" y="16" width="32" height="20" rx="3" stroke="currentColor" strokeWidth="2.5" fill="none" />
-          <path d="M8 23h32" stroke="currentColor" strokeWidth="2.5" />
-          <rect x="13" y="28" width="10" height="4" rx="1" fill="currentColor" />
-          <circle cx="30" cy="30" r="2" fill="currentColor" />
-          <path d="M16 12V16M24 8V16M32 12V16" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-        </svg>
+        <Image src="/icons/bitcoin-card.png" alt="support" width={50} height={50} />
       ),
     },
     {
       title: "Scalable System",
       description: "Grows with your business needs",
       icon: (
-        <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="24" r="16" stroke="currentColor" strokeWidth="2.5" fill="none" />
-          <path d="M24 14v20M14 24h20" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-          <circle cx="24" cy="24" r="3" fill="currentColor" />
-          <path d="M30 18l6-6M18 30l-6 6M30 30l6 6M18 18l-6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-        </svg>
+        <Image src="/icons/bitcoin-refresh.png" alt="support" width={50} height={50} />
       ),
     },
     {
       title: "24/7 Support",
       description: "Round-the-clock customer support",
       icon: (
-        <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="24" r="16" stroke="currentColor" strokeWidth="2.5" fill="none" />
-          <path d="M24 12v12l8 4" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="24" cy="24" r="2" fill="currentColor" />
-          <path d="M24 8v2M24 38v2M38 24h2M8 24h2" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-        </svg>
+        <Image src="/icons/bitcoin-convert.png" alt="support" width={50} height={50} />
       ),
     },
   ];
 
   return (
-    <section className="bg-gray-50 py-16 px-6 md:px-16 lg:px-24">
+    <section className=" py-16 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-6xl">
         {/* Header */}
         <div className="text-center mb-12">
@@ -66,10 +46,10 @@ export default function KeyFeatures() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-orange-200 group"
+              className="bg-white rounded-4xl p-8 text-center hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-orange-200 group"
             >
               {/* Icon */}
-              <div className="inline-flex items-center justify-center mb-6 text-orange-400 group-hover:text-orange-500 transition-colors">
+              <div className="inline-flex items-center bg-[#F8F8F0] rounded-full p-6 justify-center mb-6 text-orange-400 group-hover:text-orange-500 transition-colors">
                 {feature.icon}
               </div>
 
@@ -79,7 +59,7 @@ export default function KeyFeatures() {
               </h3>
 
               {/* Description */}
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-sm text-gray-600 leading-relaxed mx-6">
                 {feature.description}
               </p>
             </div>
