@@ -1,13 +1,12 @@
 import Navbar from "../components/navbar";
-import Licensing from "../components/licensing";
+import FAQPage from "../components/faq-page";
 import Footer from "../components/footer";
 
-export default function LicensingPage() {
+export default function FAQPageRoute() {
   return (
     <main>
       <Navbar />
-      <Licensing />
-      
+      <FAQPage />
       <Footer />
     </main>
   );

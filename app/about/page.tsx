@@ -1,13 +1,12 @@
 import Navbar from "../components/navbar";
-import Licensing from "../components/licensing";
+import AboutUs from "../components/about-us";
 import Footer from "../components/footer";
 
-export default function LicensingPage() {
+export default function AboutPage() {
   return (
     <main>
       <Navbar />
-      <Licensing />
-      
+      <AboutUs />
       <Footer />
     </main>
   );
