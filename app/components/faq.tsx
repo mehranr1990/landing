@@ -8,7 +8,7 @@ type FAQItem = {
 };
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number>(3);
+  const [openIndex, setOpenIndex] = useState<number>();
 
   const faqs: FAQItem[] = [
     {
@@ -58,7 +58,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-[#FFF9F0] to-white py-16 px-6 md:px-16 lg:px-24">
+    <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -74,7 +74,7 @@ export default function FAQ() {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between py-5 px-10 text-left hover:bg-gray-50 transition-colors"
               >
                 <span className="text-lg font-semibold text-gray-900 pr-4">
                   {faq.question}

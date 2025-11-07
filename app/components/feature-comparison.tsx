@@ -39,7 +39,7 @@ export default function FeatureComparison() {
   ];
 
   return (
-    <section className="bg-[#FFF9F0] py-16 px-6 md:px-16 lg:px-24">
+    <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -47,34 +47,38 @@ export default function FeatureComparison() {
           </h2>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        
           <div className="overflow-x-auto">
-            <table className="w-full">
+
+            <table className="w-full rounded-2xl mb-4">
               <thead>
-                <tr className="bg-gradient-to-r from-yellow-600 to-yellow-500">
-                  <th className="px-6 py-4 text-left text-white font-semibold rounded-tl-2xl">
+                <tr className="bg-[#C2B673]">
+                  <th className="px-14 py-7 text-left  text-white font-semibold rounded-l-3xl">
                     Feature
                   </th>
-                  <th className="px-6 py-4 text-center text-white font-semibold">
+                  <th className="px-6 py-7 text-center text-white font-semibold">
                     Economic
                   </th>
-                  <th className="px-6 py-4 text-center text-white font-semibold">
+                  <th className="px-6 py-7 text-center text-white font-semibold">
                     Popular
                   </th>
-                  <th className="px-6 py-4 text-center text-white font-semibold rounded-tr-2xl">
+                  <th className="px-6 py-7 text-center text-white font-semibold rounded-r-3xl">
                     Super Gold
                   </th>
                 </tr>
               </thead>
+            </table>
+            <div className="rounded-3xl border-3 border-[#E9E9E0] overflow-hidden">
+            <table className="w-full">
+
               <tbody>
                 {features.map((row, index) => (
                   <tr
                     key={index}
-                    className={`${
-                      index % 2 === 0 ? "bg-white" : "bg-[#FFF9F0]"
-                    }`}
+                    className={`${index % 2 === 0 ? "bg-white" : "bg-[#F8F8F0]"
+                      }`}
                   >
-                    <td className="px-6 py-4 text-gray-800 font-medium">
+                    <td className="px-6 py-4 text-gray-800 font-medium ">
                       {row.feature}
                     </td>
                     <td className="px-6 py-4 text-center text-gray-700">
@@ -90,7 +94,8 @@ export default function FeatureComparison() {
                 ))}
               </tbody>
             </table>
-          </div>
+            </div>
+        
         </div>
       </div>
     </section>

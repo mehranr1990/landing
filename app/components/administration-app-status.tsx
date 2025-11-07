@@ -8,11 +8,11 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
     
 
   return (
-    <div className="bg-white rounded-4xl border border-gray-200 shadow-sm p-6 mb-6 max-w-4xl mx-auto">
+    <div className="bg-white rounded-4xl border border-[#CECDC4]  py-10 px-16 mb-6 max-w-7xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h3 className="text-lg font-bold text-gray-900">{name}</h3>
-        <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">
+        <h3 className="text-lg font-semibold text-black">{name}</h3>
+        <div className="w-8 h-8 bg-[#F8F8F0] rounded-full flex items-center justify-center">
           <svg
             className="w-4 h-4 text-green-600"
             fill="none"
@@ -30,16 +30,16 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
       </div>
 
       {/* Uptime Visualization - Horizontal bars */}
-      <div className="flex items-end justify-between gap-[4px] h-16 mb-4">
+      <div className="flex items-end justify-between gap-[6px] h-16 mb-4">
               {uptimeDays.map((day) => (
                 <div
                   key={day.day}
-                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 hover:scale-110 rounded-sm transition-colors cursor-pointer group relative"
+                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 hover:scale-120 rounded-sm transition-colors cursor-pointer group relative"
                   style={{ height: `${day.uptime}%` }}
                   title={`${day.date.toLocaleDateString()} - ${day.uptime}%`}
                 >
                   {/* Hover tooltip */}
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-gray-900 text-white text-xs rounded px-2 py-1 whitespace-nowrap z-10">
+                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-[#FFFBF0] text-black text-xs rounded px-2 py-1 whitespace-nowrap z-10">
                     {day.date.toLocaleDateString()} - {day.uptime}%
                   </div>
                 </div>
@@ -48,9 +48,9 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
 
       {/* Footer */}
       <div className="flex items-center justify-between text-sm">
-        <span className="text-gray-500">90 day ago</span>
-        <span className="text-gray-900 font-medium">100.0 % uptime</span>
-        <span className="text-gray-500">Today</span>
+        <span className="text-[#807F7A]">90 day ago</span>
+        <span className="text-[#807F7A] font-medium">100.0 % uptime</span>
+        <span className="text-[#807F7A]">Today</span>
       </div>
     </div>
   );

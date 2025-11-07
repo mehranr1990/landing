@@ -15,11 +15,11 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white border-b border-gray-100 px-6 md:px-16 lg:px-24 py-4">
-      <div className="mx-auto max-w-7xl flex items-center justify-between">
+    <nav className="bg-[#F8F8F0] border-b border-gray-100 px-6 md:px-16 lg:px-24 py-4">
+      <div className="mx-auto w-full flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-         <Image src="/logo/logo.png" alt="logo" width={100} height={100} />
+         <Image src="/logo/logo.png" alt="logo" width={155} height={50} />
         </Link>
 
         {/* Navigation Links */}
@@ -100,13 +100,13 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Link
             href="/login"
-            className="rounded-full text-center bg-teal-500 hover:bg-teal-600 text-white font-semibold  w-[150px] h-[50px] flex items-center justify-center"
+            className="rounded-full text-center bg-teal-500 hover:bg-teal-600 text-white   w-[150px] h-[50px] flex items-center justify-center"
           >
             Login
           </Link>
           <Link
             href="/signup"
-            className="rounded-full bg-orange-400 hover:bg-orange-500 text-white font-semibold  w-[150px] h-[50px] flex items-center justify-center "
+            className="rounded-full bg-orange-400 hover:bg-orange-500 text-white   w-[150px] h-[50px] flex items-center justify-center "
           >
             Sign up
           </Link>

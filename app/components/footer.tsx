@@ -41,8 +41,8 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-800 text-gray-300">
-      <div className="mx-auto max-w-7xl px-6 md:px-16 lg:px-16 py-12">
+    <footer className="bg-[#2D2D2C] text-[#807F7A">
+      <div className="mx-auto max-w-7xl px-6 md:px-16 lg:px-16 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 py-10 ">
           {/* Brand Column */}
           <div className="space-y-4" >
@@ -56,7 +56,7 @@ export default function Footer() {
               />
 
             </Link>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-[#807F7A] text-sm leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
               ad minim veniam, quis nostrud exercitation ullamco laboris.
@@ -71,7 +71,7 @@ export default function Footer() {
                 <li key={link.name} className="ml-[-45px]">
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                    className="text-[#807F7A] hover:text-white transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <li key={resource.name} className="ml-[-30px]">
                   <Link
                     href={resource.href}
-                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                    className="text-[#807F7A] hover:text-white transition-colors text-sm"
                   >
                     {resource.name}
                   </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
-                  className="w-10 h-10 rounded-full bg-gray-700 border border-gray-600 flex items-center justify-center hover:bg-gray-600 hover:border-gray-500 transition-all"
+                  className="w-11 h-11 rounded-full bg-[#3B3B38]  flex items-center justify-center hover:bg-gray-600 hover:border-gray-500 transition-all"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -115,23 +115,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 pt-6">
+        <div className="border-t border-gray-700 py-16">
           <div className="flex flex-col justify-between items-center gap-4 text-sm">
-            <div className="flex flex-wrap items-center gap-2 text-gray-400">
+            <div className="flex flex-wrap items-center gap-2 text-[#807F7A]">
               <Link
                 href="/learn-more"
                 className="hover:text-white transition-colors"
               >
                 Learn More
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-[#807F7A]">|</span>
               <Link
                 href="/privacy"
                 className="hover:text-white transition-colors"
               >
                 Privacy Policy
               </Link>
-              <span className="text-gray-600">|</span>
+              <span className="text-[#807F7A]">|</span>
               <Link
                 href="/terms"
                 className="hover:text-white transition-colors"
@@ -139,7 +139,7 @@ export default function Footer() {
                 Terms of Use
               </Link>
             </div>
-            <p className="text-gray-400">
+            <p className="text-[#807F7A]">
               © 2025 Arzfy. All right reserved.
             </p>
           </div>

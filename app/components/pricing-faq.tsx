@@ -9,7 +9,7 @@ type FAQItem = {
 };
 
 export default function PricingFAQ() {
-  const [openIndex, setOpenIndex] = useState<number>(0);
+  const [openIndex, setOpenIndex] = useState<number>();
 
   const faqs: FAQItem[] = [
     {
@@ -39,7 +39,7 @@ export default function PricingFAQ() {
   };
 
   return (
-    <section className="bg-[#FFF9F0] py-16 px-6 md:px-16 lg:px-24">
+    <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-7xl">
         {/* FAQ Section */}
         <div className="text-center mb-12">

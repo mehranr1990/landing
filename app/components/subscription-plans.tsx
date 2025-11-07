@@ -50,7 +50,7 @@ export default function SubscriptionPlans() {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-[#FFF9F0] to-white py-16 px-6 md:px-16 lg:px-24">
+    <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-6xl">
         {/* Header */}
         <div className="text-center mb-12">
@@ -91,24 +91,24 @@ export default function SubscriptionPlans() {
           </button>
         </div>
 
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="max-w-7xl mx-auto mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {plans.map((plan) => (
                 <div
                   key={plan.name}
                   className="flex flex-col items-center"
                 >
                   <div
-                    className={`rounded-3xl shadow-lg w-full max-w-sm p-8 ${
+                    className={`rounded-4xl shadow-lg w-full max-w-sm p-4 pt-14 ${
                       plan.isHighlighted
-                        ? "bg-gradient-to-br from-orange-300 via-pink-300 to-purple-400 text-white"
+                        ? "bg-gradient-to-bl from-[#D180F9] to-[#FF9D00] text-white scale-115"
                         : "bg-white"
                     }`}
                   >
                     <div className="flex flex-col items-center">
                       <h3
                         className={`text-2xl font-bold mb-4 ${
-                          plan.isHighlighted ? "text-white" : "text-gray-800"
+                          plan.isHighlighted ? "text-white" : "text-[#3D3D3D]"
                         }`}
                       >
                         {plan.name}
@@ -116,7 +116,7 @@ export default function SubscriptionPlans() {
                       <div className="mb-4">
                         <span
                           className={`text-5xl font-bold ${
-                            plan.isHighlighted ? "text-white" : "text-gray-800"
+                            plan.isHighlighted ? "text-white" : "text-[#3D3D3D]"
                           }`}
                         >
                           {plan.price}
@@ -126,17 +126,17 @@ export default function SubscriptionPlans() {
                         className={`mb-6 text-sm ${
                           plan.isHighlighted
                             ? "text-white/90"
-                            : "text-gray-600"
+                            : "text-[#3D3D3D]"
                         }`}
                       >
                         {plan.period}
                       </p>
                     </div>
                     <div
-                      className={`rounded-xl p-6 mb-6 ${
+                      className={`rounded-2xl px-10 py-6  ${
                         plan.isHighlighted
-                          ? "bg-white/20"
-                          : "bg-[#F5F3ED]"
+                          ? "bg-white/40"
+                          : "bg-[#F8F8F0]"
                       }`}
                     >
                       <ul className="space-y-3">
@@ -145,15 +145,15 @@ export default function SubscriptionPlans() {
                             key={index}
                             className={`flex items-start text-sm ${
                               plan.isHighlighted
-                                ? "text-white"
-                                : "text-gray-800"
+                                ? "text-black"
+                                : "text-[#807F7A]"
                             }`}
                           >
                             <span
                               className={`w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0 ${
                                 plan.isHighlighted
-                                  ? "bg-white"
-                                  : "bg-gray-800"
+                                  ? "bg-black"
+                                  : "bg-[#807F7A]"
                               }`}
                             ></span>
                             <span>{feature}</span>
@@ -162,7 +162,8 @@ export default function SubscriptionPlans() {
                       </ul>
                     </div>
                   </div>
-                  <button className="mt-6 bg-orange-400 hover:bg-orange-500 text-white rounded-full transition-colors w-[150px] h-[50px] mx-auto">
+                  <button className={` bg-orange-400 hover:bg-orange-500 text-white rounded-full transition-colors w-[150px] h-[50px] mx-auto
+                    ${plan.isHighlighted ? "mt-20" : "mt-10"}`}>
                     Select Plan
                   </button>
                 </div>

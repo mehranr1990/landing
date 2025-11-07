@@ -124,10 +124,10 @@ export default function FAQPage() {
         <div className="mx-auto max-w-7xl">
           {/* Title Section */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
               Frequently Asked Questions
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-[#666666]">
               Find answers to common questions about Arzfy
             </p>
           </div>
@@ -140,7 +140,7 @@ export default function FAQPage() {
                 placeholder="Search..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-6 py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent pr-12"
+                className="w-full px-6 my-16 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent pr-12"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
                 <svg
@@ -161,7 +161,7 @@ export default function FAQPage() {
           </div>
 
           {/* Categories */}
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 mb-10">
             {categories.map((category) => (
               <button
                 key={category.id}
@@ -169,10 +169,10 @@ export default function FAQPage() {
                   setActiveCategory(category.id);
                   setOpenQuestion(null);
                 }}
-                className={`px-6 py-3 rounded-lg font-medium transition-colors ${
+                className={`px-6 py-3 text-black rounded-2xl font-medium transition-colors w-[150px] h-[50px] ${
                   activeCategory === category.id
-                    ? "bg-[#FFF9F0] text-gray-900"
-                    : "bg-white text-gray-700 hover:bg-gray-50"
+                    ? "bg-[#F8F8F1] "
+                    : "bg-white hover:bg-gray-50"
                 }`}
               >
                 {category.name}
@@ -183,7 +183,7 @@ export default function FAQPage() {
       </section>
 
       {/* FAQ Content Section */}
-      <section className="bg-[#FFF9F0] py-16 px-6 md:px-16 lg:px-24">
+      <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
           {filteredFAQs.length === 0 ? (
             <div className="text-center py-12">
@@ -200,7 +200,7 @@ export default function FAQPage() {
                 >
                   <button
                     onClick={() => toggleFAQ(faq.question)}
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
+                    className="w-full flex items-center justify-between py-5 px-10 text-left hover:bg-gray-50 transition-colors"
                   >
                     <span className="text-lg font-semibold text-gray-900 pr-4">
                       {faq.question}
