@@ -23,13 +23,13 @@ export default function Navbar() {
         </Link>
 
         {/* Navigation Links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center xl:gap-16 gap-6">
           <Link
             href="/"
             className={`font-medium transition ${
               isActive("/")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             Home
@@ -38,8 +38,8 @@ export default function Navbar() {
             href="/pricing"
             className={`font-medium transition ${
               isActive("/pricing")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             Pricing
@@ -48,8 +48,8 @@ export default function Navbar() {
             href="/services"
             className={`font-medium transition ${
               isActive("/services")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             Services
@@ -58,8 +58,8 @@ export default function Navbar() {
             href="/about"
             className={`font-medium transition ${
               isActive("/about")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             About us
@@ -68,8 +68,8 @@ export default function Navbar() {
             href="/faq"
             className={`font-medium transition ${
               isActive("/faq")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             FAQ
@@ -78,8 +78,8 @@ export default function Navbar() {
             href="/blog"
             className={`font-medium transition ${
               isActive("/blog")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             Blog
@@ -88,8 +88,8 @@ export default function Navbar() {
             href="/licensing"
             className={`font-medium transition ${
               isActive("/licensing")
-                ? "text-teal-500 font-semibold"
-                : "text-gray-700 hover:text-teal-500"
+                ? "text-[#0EAA9A] font-semibold"
+                : "text-black hover:text-teal-500"
             }`}
           >
             Licensing
@@ -100,13 +100,13 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Link
             href="/login"
-            className="rounded-full text-center bg-teal-500 hover:bg-teal-600 text-white   w-[150px] h-[50px] flex items-center justify-center"
+            className="rounded-full text-center bg-[#0EAA9A] hover:bg-teal-500 text-white   w-[150px] h-[50px] flex items-center justify-center"
           >
             Login
           </Link>
           <Link
             href="/signup"
-            className="rounded-full bg-orange-400 hover:bg-orange-500 text-white   w-[150px] h-[50px] flex items-center justify-center "
+            className="rounded-full bg-[#FF9D00] hover:bg-orange-400 text-white   w-[150px] h-[50px] flex items-center justify-center "
           >
             Sign up
           </Link>
