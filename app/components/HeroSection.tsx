@@ -26,7 +26,7 @@ export default function HeroSection() {
             <div className="mt-8 flex flex-col flex-row gap-4 justify-center md:justify-start">
               <a
                 href="#get-started"
-                className="rounded-full bg-teal-500 hover:bg-teal-600 text-white  w-[150px] h-[50px] flex items-center justify-center"
+                className="rounded-full bg-[#0EAA9A] hover:bg-teal-500 text-white  w-[150px] h-[50px] flex items-center justify-center"
               >
                 Get Started
               </a>
