@@ -1,17 +1,21 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function AboutUs() {
+  const t = useTranslations("about");
+
   return (
     <>
       {/* Hero Section */}
       <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-4xl md:text-5xl text-black mb-4">
-            About Arzfy
+            {t("hero.title")}
           </h1>
           <p className="text-lg md:text-xl text-[#666666]">
-            Empowering Finance Exchanges with professional management solutions
-            since 2021
+            {t("hero.subtitle")}
           </p>
         </div>
       </section>
@@ -24,27 +28,17 @@ export default function AboutUs() {
             {/* Left Side - Our Story */}
             <div className="flex-1 space-y-6">
               <h2 className="text-2xl md:text-3xl font-bold text-teal-500">
-                Our Story
+                {t("ourStory.title")}
               </h2>
               <div className="space-y-6 text-black font-medium text-lg leading-relaxed">
                 <p>
-                  Arzfy was founded in 2021 as a subsidiary of "Economic Group
-                  Amin Etemad Farda" with a mission to revolutionize crypto
-                  exchange management.
+                  {t("ourStory.p1")}
                 </p>
                 <p className="text-[#666666] text-base">
-                  Our journey began when we recognized the growing need for
-                  comprehensive, secure, and user-friendly management solutions
-                  in the cryptocurrency industry. We set out to create a
-                  platform that would empower exchange operators with the tools
-                  they need to succeed in this rapidly evolving market.
+                  {t("ourStory.p2")}
                 </p>
                 <p className="text-[#666666] text-base">
-                  Today, Arzfy serves numerous crypto exchanges worldwide,
-                  providing them with cutting-edge accounting systems, user
-                  management, analytics, and reporting capabilities. Our
-                  commitment to innovation and customer success drives
-                  everything we do.
+                  {t("ourStory.p3")}
                 </p>
               </div>
             </div>
@@ -57,7 +51,7 @@ export default function AboutUs() {
                       470+
                     </div>
                     <span className="text-[#666666] text-center font-medium">
-                      Businesses
+                      {t("stats.businesses")}
                     </span>
                 </div>
                 <div className="flex items-center justify-start px-10 gap-8">
@@ -65,7 +59,7 @@ export default function AboutUs() {
                     99.9%
                   </div>
                   <div className="text-[#666666] text-center font-medium">
-                    Uptime
+                    {t("stats.uptime")}
                   </div>
                 </div>
                 <div className="flex items-center justify-start px-10 gap-8">
@@ -73,7 +67,7 @@ export default function AboutUs() {
                     24/7
                   </div>
                   <div className="text-[#666666] text-center font-medium">
-                    Support
+                    {t("stats.support")}
                   </div>
                 </div>
               </div>
@@ -99,12 +93,10 @@ export default function AboutUs() {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Our Mission
+                {t("mission.title")}
               </h3>
               <p className="text-gray-700 leading-relaxed text-center">
-                To provide the most reliable and comprehensive crypto exchange
-                management platform, empowering businesses to operate efficiently
-                and securely in the digital economy.
+                {t("mission.description")}
               </p>
             </div>
 
@@ -121,12 +113,10 @@ export default function AboutUs() {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Our Vision
+                {t("vision.title")}
               </h3>
               <p className="text-gray-700 leading-relaxed text-center">
-                To become the global standard for crypto exchange management,
-                recognized for innovation, reliability, and exceptional customer
-                service.
+                {t("vision.description")}
               </p>
             </div>
           </div>
@@ -142,10 +132,10 @@ export default function AboutUs() {
               <div className="space-y-8">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    Get In Touch
+                    {t("contact.title")}
                   </h2>
                   <p className="text-[#666666] text-lg">
-                    Have questions? We'd love to hear from you.
+                    {t("contact.subtitle")}
                   </p>
                 </div>
                 <div className="border-b-2 border-white"></div>
@@ -163,7 +153,7 @@ export default function AboutUs() {
                     </div>
                     <div>
                       <span className="text-[#FF9D00] font-semibold  mb-1 mr-10">
-                        Email:
+                        {t("contact.email")}
                       </span>
                       <span className="text-black">contact@arzfy.com</span>
                     </div>
@@ -181,7 +171,7 @@ export default function AboutUs() {
                     </div>
                     <div>
                       <span className="text-[#FF9D00] font-semibold  mb-1 mr-8">
-                        Phone:
+                        {t("contact.phone")}
                       </span>
                       <span className="text-black">+1 (555) 123-4567</span>
                     </div>
@@ -199,7 +189,7 @@ export default function AboutUs() {
                     </div>
                     <div>
                       <span className="text-[#FF9D00] font-semibold  mb-1 mr-5">
-                        Address:
+                        {t("contact.address")}
                       </span>
                       <span className="text-black">
                         123 Crypto Street, Tech City, TC 12345
@@ -213,21 +203,21 @@ export default function AboutUs() {
               <div className="space-y-6 flex flex-col items-center justify-center">
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder={t("contact.namePlaceholder")}
                   className="w-full bg-white px-6 py-4 rounded-xl border border-[#CECDC4] focus:outline-none focus:ring-2 focus:ring-[#FF9D00] focus:border-transparent"
                 />
                 <input
                   type="email"
-                  placeholder="Email"
+                  placeholder={t("contact.emailPlaceholder")}
                   className="w-full bg-white px-6 py-4 rounded-xl border border-[#CECDC4] focus:outline-none focus:ring-2 focus:ring-[#FF9D00] focus:border-transparent"
                 />
                 <textarea
-                  placeholder="Write your message..."
+                  placeholder={t("contact.messagePlaceholder")}
                   rows={5}
                   className="w-full bg-white px-6 py-4 rounded-xl border border-[#CECDC4] focus:outline-none focus:ring-2 focus:ring-[#FF9D00] focus:border-transparent resize-none"
                 />
                 <button className="w-[200px] h-[50px] bg-[#FF9D00] hover:bg-orange-400 text-white  rounded-4xl px-8 py-4 transition-colors">
-                  Contact Us
+                  {t("contact.contactUs")}
                 </button>
               </div>
             </div>

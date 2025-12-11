@@ -1,0 +1,374 @@
+{
+  "common": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "services": "Services",
+    "about": "About us",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "licensing": "Licensing",
+    "login": "Login",
+    "signUp": "Sign up",
+    "getStarted": "Get Started",
+    "watchDemo": "Watch Demo",
+    "selectPlan": "Select Plan",
+    "contactUs": "Contact Us",
+    "send": "Send",
+    "search": "Search...",
+    "learnMore": "Learn More",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "allRightsReserved": "All right reserved",
+    "downloadApp": "Download App"
+  },
+  "navbar": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "services": "Services",
+    "about": "About us",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "licensing": "Licensing",
+    "login": "Login",
+    "signUp": "Sign up"
+  },
+  "hero": {
+    "title": "All-in-One Accounting for Digital Finance",
+    "subtitle": "Arzfy helps crypto and fiat exchange automate accounting, eliminate errors, and gain real-time financial insights — all in one secure and intelligent platform.",
+    "getStarted": "Get Started",
+    "watchDemo": "Watch Demo",
+    "uptimeTitle": "Up to 99.99 Percent Up-Time",
+    "importTime": "Import Accounting Data Lower than 3 minutes.",
+    "years": "Years",
+    "uptime": "Uptime",
+    "realUsers": "Real Users",
+    "trustUs": "Trust Us",
+    "days": "Days",
+    "noIncidents": "No Incidents"
+  },
+  "keyFeatures": {
+    "title": "Key Features",
+    "secureTrading": "Secure Trading",
+    "secureTradingDesc": "Advanced security features for safe trading",
+    "fastProcessing": "Fast Processing",
+    "fastProcessingDesc": "Lightning-fast transaction processing",
+    "scalableSystem": "Scalable System",
+    "scalableSystemDesc": "Grows with your business needs",
+    "support24": "24/7 Support",
+    "support24Desc": "Round-the-clock customer support"
+  },
+  "subscriptionPlans": {
+    "title": "Subscription Plans",
+    "subtitle": "Choose your best plan",
+    "oneMonth": "1 Month",
+    "threeMonth": "3 Month",
+    "oneYear": "1 Year",
+    "perMonth": "per month",
+    "selectPlan": "Select Plan",
+    "economic": {
+      "name": "ECONIMIC",
+      "features": [
+        "1 user (expandable)",
+        "150 counterparty account",
+        "Basic reports",
+        "Ticket support",
+        "+$59 per additional user"
+      ]
+    },
+    "professional": {
+      "name": "PROFESSIONAL",
+      "features": [
+        "3 user (expandable)",
+        "Unlimited counterparty",
+        "Basic + Advanced reports",
+        "Ticket support",
+        "+$59 per additional user"
+      ]
+    },
+    "superGold": {
+      "name": "SUPER GOLD",
+      "features": [
+        "Unlimited user",
+        "Unlimited counterparty",
+        "All reports + Analysis tools",
+        "Phone + Ticket support",
+        "+$59 per additional user"
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "testimonial1": {
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "name": "John Doe",
+      "title": "CEO",
+      "company": "Company A"
+    },
+    "testimonial2": {
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "name": "Jane Smith",
+      "title": "CTO",
+      "company": "Company B"
+    }
+  },
+  "downloadApp": {
+    "title": "Download the App",
+    "description": "Get our app on your favorite device. Works well always on to date.",
+    "downloadApp": "Download App"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do I get started with Arzfy?",
+        "answer": "Getting started with Arzfy is simple. First, create an account by signing up with your email address. Then, complete the verification process to ensure your account security. Once verified, you can start exploring our features and begin trading on the platform."
+      },
+      {
+        "question": "What are the system requirement?",
+        "answer": "Arzfy works on most modern devices. For desktop, you need Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution. For mobile, iOS 12 or later and Android 8.0 or later are supported. A stable internet connection is recommended for the best experience."
+      },
+      {
+        "question": "Can I migrate from another exchange platform?",
+        "answer": "Yes, you can migrate from other exchange platforms. We provide migration tools and support to help you transfer your trading history and account data. Contact our support team for assistance with the migration process."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway. For specific payment options available in your region, please check our payment methods page."
+      },
+      {
+        "question": "Is there a free trial available?",
+        "answer": "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days, giving you plenty of time to evaluate our services."
+      },
+      {
+        "question": "How secure is Arzfy?",
+        "answer": "Security is our top priority. We use industry-leading encryption, two-factor authentication, and regular security audits to protect your data and funds. All transactions are monitored 24/7, and we follow strict compliance standards to ensure your information remains safe."
+      },
+      {
+        "question": "Can I upgrade or downgrade my plan?",
+        "answer": "Absolutely! You can upgrade or downgrade your subscription plan at any time. Changes to your plan will be reflected in your next billing cycle. If you upgrade, you'll get immediate access to the new features. If you downgrade, the changes will take effect at the start of the next billing period."
+      },
+      {
+        "question": "What kind of support do you provide?",
+        "answer": "We offer comprehensive support through multiple channels. Our support team is available 24/7 via live chat, email, and phone. We also provide extensive documentation, video tutorials, and a knowledge base to help you find answers to common questions quickly."
+      }
+    ]
+  },
+  "serverUptime": {
+    "title": "Server Uptime",
+    "subtitle": "100.0% For 90 Days",
+    "daysAgo": "90-day ago",
+    "today": "Today"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "followUs": "Follow Us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "copyright": "© 2025 Arzfy. All right reserved."
+  },
+  "pricing": {
+    "hero": {
+      "title": "Choose Your Perfect Plan",
+      "subtitle": "Find the right solution for your business needs"
+    },
+    "faq": {
+      "title": "Pricing FAQs",
+      "items": [
+        {
+          "question": "Can I upgrade or downgrade my plan?",
+          "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway."
+        },
+        {
+          "question": "Is there a free trial available?",
+          "answer": "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days."
+        },
+        {
+          "question": "Do you offer refunds?",
+          "answer": "We offer refunds within 30 days of purchase if you're not satisfied with our service. Please contact our support team for assistance with refund requests."
+        }
+      ]
+    },
+    "featureComparison": {
+      "title": "Feature Comparison",
+      "feature": "Feature",
+      "economic": "Economic",
+      "popular": "Popular",
+      "superGold": "Super Gold",
+      "numberOfUsers": "Number of Users",
+      "counterparty": "Counterparty",
+      "basicReports": "Basic Reports",
+      "advancedReports": "Advanced Reports",
+      "financialAnalytics": "Financial Analytics",
+      "support": "Support",
+      "available": "Available",
+      "ticket": "Ticket",
+      "ticketCall": "Ticket/Call",
+      "exclusive": "Exclusive"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Arzfy",
+      "subtitle": "Empowering Finance Exchanges with professional management solutions since 2021"
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "p1": "Arzfy was founded in 2021 as a subsidiary of \"Economic Group Amin Etemad Farda\" with a mission to revolutionize crypto exchange management.",
+      "p2": "Our journey began when we recognized the growing need for comprehensive, secure, and user-friendly management solutions in the cryptocurrency industry. We set out to create a platform that would empower exchange operators with the tools they need to succeed in this rapidly evolving market.",
+      "p3": "Today, Arzfy serves numerous crypto exchanges worldwide, providing them with cutting-edge accounting systems, user management, analytics, and reporting capabilities. Our commitment to innovation and customer success drives everything we do."
+    },
+    "stats": {
+      "businesses": "Businesses",
+      "uptime": "Uptime",
+      "support": "Support"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide the most reliable and comprehensive crypto exchange management platform, empowering businesses to operate efficiently and securely in the digital economy."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the global standard for crypto exchange management, recognized for innovation, reliability, and exceptional customer service."
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "Have questions? We'd love to hear from you.",
+      "email": "Email:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Write your message...",
+      "contactUs": "Contact Us"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services & System Status",
+      "subtitle": "Real-time monitoring of all Arzfy services and infrastructure"
+    },
+    "scheduledMaintenance": {
+      "title": "Scheduled Maintenance",
+      "scheduledFor": "Scheduled for:",
+      "description": "Arzfy will be performing routine maintenance on November 18, 2025 starting at 7:00 PM (Pacific). You may not be able to access Arzfy for a short period of time, but we'll have things back up and running as soon as possible to minimize disruption to you.",
+      "postedOn": "Posted on"
+    },
+    "allSystemsOperational": {
+      "title": "All Systems Operational"
+    },
+    "pastIncidents": {
+      "title": "Past Incidents",
+      "noIncidents": "No incidents reported today.",
+      "incidentHistory": "Incident History"
+    },
+    "services": {
+      "core": "Core",
+      "administrationApp": "Administration App",
+      "desktopApp": "Desktop App",
+      "currencyBoard": "Currency Board",
+      "systemBlog": "System Blog",
+      "support": "Support"
+    },
+    "uptime": {
+      "daysAgo": "90 day ago",
+      "uptime": "100.0 % uptime",
+      "today": "Today"
+    }
+  },
+  "faqPage": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Arzfy",
+    "noResults": "No questions found matching your search.",
+    "categories": {
+      "general": "General",
+      "pricing": "Pricing",
+      "technical": "Technical",
+      "account": "Account",
+      "security": "Security",
+      "support": "Support"
+    },
+    "items": [
+      {
+        "question": "How do I get started with Arzfy?",
+        "answer": "Getting started with Arzfy is simple. First, create an account by signing up with your email address. Then, complete the verification process to ensure your account security. Once verified, you can start exploring our features and begin trading on the platform.",
+        "category": "General"
+      },
+      {
+        "question": "What are the system requirements?",
+        "answer": "Arzfy works on most modern devices. For desktop, you need Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution. For mobile, iOS 12 or later and Android 8.0 or later are supported. A stable internet connection is recommended for the best experience.",
+        "category": "Technical"
+      },
+      {
+        "question": "Can I migrate from another exchange platform?",
+        "answer": "Yes, you can migrate from other exchange platforms. We provide migration tools and support to help you transfer your trading history and account data. Contact our support team for assistance with the migration process.",
+        "category": "Account"
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway. For specific payment options available in your region, please check our payment methods page.",
+        "category": "Pricing"
+      },
+      {
+        "question": "Is there a free trial available?",
+        "answer": "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days, giving you plenty of time to evaluate our services.",
+        "category": "Pricing"
+      },
+      {
+        "question": "How secure is Arzfy?",
+        "answer": "Security is our top priority. We use industry-leading encryption, two-factor authentication, and regular security audits to protect your data and funds. All transactions are monitored 24/7, and we follow strict compliance standards to ensure your information remains safe.",
+        "category": "Security"
+      },
+      {
+        "question": "Can I upgrade or downgrade my plan?",
+        "answer": "Absolutely! You can upgrade or downgrade your subscription plan at any time. Changes to your plan will be reflected in your next billing cycle. If you upgrade, you'll get immediate access to the new features. If you downgrade, the changes will take effect at the start of the next billing period.",
+        "category": "Pricing"
+      },
+      {
+        "question": "What kind of support do you provide?",
+        "answer": "We offer comprehensive support through multiple channels. Our support team is available 24/7 via live chat, email, and phone. We also provide extensive documentation, video tutorials, and a knowledge base to help you find answers to common questions quickly.",
+        "category": "Support"
+      },
+      {
+        "question": "How do I reset my password?",
+        "answer": "To reset your password, click on the 'Forgot Password' link on the login page. Enter your email address, and we'll send you a password reset link. Follow the instructions in the email to create a new password. Make sure to use a strong, unique password for better security.",
+        "category": "Account"
+      },
+      {
+        "question": "What is two-factor authentication?",
+        "answer": "Two-factor authentication (2FA) adds an extra layer of security to your account. When enabled, you'll need to provide both your password and a verification code from your mobile device to log in. We strongly recommend enabling 2FA to protect your account from unauthorized access.",
+        "category": "Security"
+      },
+      {
+        "question": "How do I contact customer support?",
+        "answer": "You can contact our customer support team through multiple channels: live chat (available 24/7 on our website), email at support@arzfy.com, or phone at +1 (555) 123-4567. Our support team typically responds within 24 hours via email and immediately via live chat.",
+        "category": "Support"
+      },
+      {
+        "question": "What are the transaction fees?",
+        "answer": "Transaction fees vary depending on your subscription plan and the type of transaction. Generally, fees range from 0.1% to 0.5% per transaction. Premium plans offer reduced fees. For detailed fee information, please check our pricing page or contact our support team.",
+        "category": "Pricing"
+      }
+    ]
+  },
+  "licensing": {
+    "title": "Licenses & Certificates",
+    "subtitle": "Verify our credentials and business authenticity",
+    "companyInfo": {
+      "title": "Company Information",
+      "description": "Arzfy is a subsidiary of \"Economic NOVA Group\" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "registrationId": "Company Registration ID:",
+      "established": "Established:"
+    }
+  },
+  "contactSupport": {
+    "title": "Still have questions?",
+    "subtitle": "Contact our support team",
+    "messagePlaceholder": "Write your message...",
+    "send": "Send"
+  }
+}
+

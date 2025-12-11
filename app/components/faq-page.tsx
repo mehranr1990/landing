@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ContactSupport from "./contact-support";
+import { useTranslations } from "next-intl";
 
 type Category = {
   id: string;
@@ -18,90 +19,19 @@ export default function FAQPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("General");
   const [openQuestion, setOpenQuestion] = useState<string | null>(null);
+  const t = useTranslations("faqPage");
+  const tCommon = useTranslations("common");
 
   const categories: Category[] = [
-    { id: "General", name: "General" },
-    { id: "Pricing", name: "Pricing" },
-    { id: "Technical", name: "Technical" },
-    { id: "Account", name: "Account" },
-    { id: "Security", name: "Security" },
-    { id: "Support", name: "Support" },
+    { id: "General", name: t("categories.general") },
+    { id: "Pricing", name: t("categories.pricing") },
+    { id: "Technical", name: t("categories.technical") },
+    { id: "Account", name: t("categories.account") },
+    { id: "Security", name: t("categories.security") },
+    { id: "Support", name: t("categories.support") },
   ];
 
-  const faqs: FAQItem[] = [
-    {
-      question: "How do I get started with Arzfy?",
-      answer:
-        "Getting started with Arzfy is simple. First, create an account by signing up with your email address. Then, complete the verification process to ensure your account security. Once verified, you can start exploring our features and begin trading on the platform.",
-      category: "General",
-    },
-    {
-      question: "What are the system requirements?",
-      answer:
-        "Arzfy works on most modern devices. For desktop, you need Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution. For mobile, iOS 12 or later and Android 8.0 or later are supported. A stable internet connection is recommended for the best experience.",
-      category: "Technical",
-    },
-    {
-      question: "Can I migrate from another exchange platform?",
-      answer:
-        "Yes, you can migrate from other exchange platforms. We provide migration tools and support to help you transfer your trading history and account data. Contact our support team for assistance with the migration process.",
-      category: "Account",
-    },
-    {
-      question: "What payment methods do you accept?",
-      answer:
-        "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway. For specific payment options available in your region, please check our payment methods page.",
-      category: "Pricing",
-    },
-    {
-      question: "Is there a free trial available?",
-      answer:
-        "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days, giving you plenty of time to evaluate our services.",
-      category: "Pricing",
-    },
-    {
-      question: "How secure is Arzfy?",
-      answer:
-        "Security is our top priority. We use industry-leading encryption, two-factor authentication, and regular security audits to protect your data and funds. All transactions are monitored 24/7, and we follow strict compliance standards to ensure your information remains safe.",
-      category: "Security",
-    },
-    {
-      question: "Can I upgrade or downgrade my plan?",
-      answer:
-        "Absolutely! You can upgrade or downgrade your subscription plan at any time. Changes to your plan will be reflected in your next billing cycle. If you upgrade, you'll get immediate access to the new features. If you downgrade, the changes will take effect at the start of the next billing period.",
-      category: "Pricing",
-    },
-    {
-      question: "What kind of support do you provide?",
-      answer:
-        "We offer comprehensive support through multiple channels. Our support team is available 24/7 via live chat, email, and phone. We also provide extensive documentation, video tutorials, and a knowledge base to help you find answers to common questions quickly.",
-      category: "Support",
-    },
-    {
-      question: "How do I reset my password?",
-      answer:
-        "To reset your password, click on the 'Forgot Password' link on the login page. Enter your email address, and we'll send you a password reset link. Follow the instructions in the email to create a new password. Make sure to use a strong, unique password for better security.",
-      category: "Account",
-    },
-    {
-      question: "What is two-factor authentication?",
-      answer:
-        "Two-factor authentication (2FA) adds an extra layer of security to your account. When enabled, you'll need to provide both your password and a verification code from your mobile device to log in. We strongly recommend enabling 2FA to protect your account from unauthorized access.",
-      category: "Security",
-    },
-    {
-      question: "How do I contact customer support?",
-      answer:
-        "You can contact our customer support team through multiple channels: live chat (available 24/7 on our website), email at support@arzfy.com, or phone at +1 (555) 123-4567. Our support team typically responds within 24 hours via email and immediately via live chat.",
-      category: "Support",
-    },
-    {
-      question: "What are the transaction fees?",
-      answer:
-        "Transaction fees vary depending on your subscription plan and the type of transaction. Generally, fees range from 0.1% to 0.5% per transaction. Premium plans offer reduced fees. For detailed fee information, please check our pricing page or contact our support team.",
-      category: "Pricing",
-    },
-  ];
+  const faqs: FAQItem[] = (t.raw("items") as FAQItem[]) || [];
 
   const toggleFAQ = (question: string): void => {
     setOpenQuestion(openQuestion === question ? null : question);
@@ -125,10 +55,10 @@ export default function FAQPage() {
           {/* Title Section */}
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
-              Frequently Asked Questions
+              {t("title")}
             </h1>
             <p className="text-lg md:text-xl text-[#666666]">
-              Find answers to common questions about Arzfy
+              {t("subtitle")}
             </p>
           </div>
 
@@ -137,7 +67,7 @@ export default function FAQPage() {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search..."
+                placeholder={tCommon("search")}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-6 my-16 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent pr-12"
@@ -188,7 +118,7 @@ export default function FAQPage() {
           {filteredFAQs.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-600 text-lg">
-                No questions found matching your search.
+                {t("noResults")}
               </p>
             </div>
           ) : (

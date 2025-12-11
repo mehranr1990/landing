@@ -1,4 +1,9 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export default function ServerUptime() {
+  const t = useTranslations("serverUptime");
   // Generate 90 days of uptime data (all green for 100% uptime)
   const uptimeDays = Array.from({ length: 90 }, (_, i) => ({
     day: i,
@@ -12,9 +17,9 @@ export default function ServerUptime() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Server Uptime
+            {t("title")}
           </h2>
-          <p className="text-gray-600">100.0% For 90 Days</p>
+          <p className="text-gray-600">{t("subtitle")}</p>
         </div>
 
         {/* Uptime Chart */}
@@ -22,7 +27,7 @@ export default function ServerUptime() {
          
 
           {/* Bar Chart */}
-          <div className="relative">
+          <div className="relative md:display-block hidden">
             {/* Bars Container */}
             <div className="flex items-end justify-between gap-[6px] h-32 mb-4">
               {uptimeDays.map((day) => (
@@ -42,8 +47,8 @@ export default function ServerUptime() {
 
             {/* Timeline Labels */}
             <div className="flex items-center justify-between text-sm text-gray-500">
-              <span>90-day ago</span>
-              <span>Today</span>
+              <span>{t("daysAgo")}</span>
+              <span>{t("today")}</span>
             </div>
           </div>
       </div>

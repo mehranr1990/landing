@@ -1,3 +1,7 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 type Testimonial = {
   quote: string;
   name: string;
@@ -6,20 +10,20 @@ type Testimonial = {
 };
 
 export default function Testimonials() {
+  const t = useTranslations("testimonials");
+
   const testimonials: Testimonial[] = [
     {
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      name: "John Doe",
-      title: "CEO",
-      company: "Company A",
+      quote: t("testimonial1.quote"),
+      name: t("testimonial1.name"),
+      title: t("testimonial1.title"),
+      company: t("testimonial1.company"),
     },
     {
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-      name: "Jane Smith",
-      title: "CTO",
-      company: "Company B",
+      quote: t("testimonial2.quote"),
+      name: t("testimonial2.name"),
+      title: t("testimonial2.title"),
+      company: t("testimonial2.company"),
     },
   ];
 
@@ -29,7 +33,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            What Our Clients Say
+            {t("title")}
           </h2>
         </div>
 

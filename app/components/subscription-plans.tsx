@@ -1,50 +1,34 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 type PlanPeriod = "1month" | "3month" | "1year";
 
 export default function SubscriptionPlans() {
   const [selectedPeriod, setSelectedPeriod] = useState<PlanPeriod>("1month");
+  const t = useTranslations("subscriptionPlans");
 
   const plans = [
     {
-      name: "ECONIMIC",
+      name: t("economic.name"),
       price: "$79",
-      period: "per month",
-      features: [
-        "1 user (expandable)",
-        "150 counterparty account",
-        "Basic reports",
-        "Ticket support",
-        "+$59 per additional user",
-      ],
+      period: t("perMonth"),
+      features: t.raw("economic.features") as string[],
       isHighlighted: false,
     },
     {
-      name: "SUPER GOLD",
+      name: t("superGold.name"),
       price: "$499",
-      period: "per month",
-      features: [
-        "Unlimited user",
-        "Unlimited counterparty",
-        "All reports + Analysis tools",
-        "Phone + Ticket support",
-        "+$59 per additional user",
-      ],
+      period: t("perMonth"),
+      features: t.raw("superGold.features") as string[],
       isHighlighted: true,
     },
     {
-      name: "PROFESSIONAL",
+      name: t("professional.name"),
       price: "$199",
-      period: "per month",
-      features: [
-        "3 user (expandable)",
-        "Unlimited counterparty",
-        "Basic + Advanced reports",
-        "Ticket support",
-        "+$59 per additional user",
-      ],
+      period: t("perMonth"),
+      features: t.raw("professional.features") as string[],
       isHighlighted: false,
     },
   ];
@@ -55,9 +39,9 @@ export default function SubscriptionPlans() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Subscription Plans
+            {t("title")}
           </h2>
-          <p className="text-gray-600">Choose your best plan</p>
+          <p className="text-gray-600">{t("subtitle")}</p>
         </div>
 
         {/* Period Tabs */}
@@ -65,29 +49,29 @@ export default function SubscriptionPlans() {
           <button
             onClick={() => setSelectedPeriod("1month")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1month"
-              ? "bg-teal-500 text-white shadow-lg"
+              ? "bg-orange-400 text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
-            1 Month
+            {t("oneMonth")}
           </button>
           <button
             onClick={() => setSelectedPeriod("3month")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "3month"
-              ? "bg-teal-500 text-white shadow-lg"
+              ? "bg-orange-400 text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
-            3 Month
+            {t("threeMonth")}
           </button>
           <button
             onClick={() => setSelectedPeriod("1year")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1year"
-              ? "bg-teal-500 text-white shadow-lg"
+              ? "bg-orange-400 text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
-            1 Year
+            {t("oneYear")}
           </button>
         </div>
 
@@ -150,7 +134,7 @@ export default function SubscriptionPlans() {
                             }`}
                           >
                             <span
-                              className={`w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0 ${
+                              className={`w-2 h-2 rounded-full me-3 mt-2 flex-shrink-0 ${
                                 plan.isHighlighted
                                   ? "bg-black"
                                   : "bg-[#807F7A]"
@@ -162,13 +146,23 @@ export default function SubscriptionPlans() {
                       </ul>
                     </div>
                   </div>
-                  <button className={` bg-orange-400 hover:bg-orange-500 text-white rounded-full transition-colors w-[150px] h-[50px] mx-auto
+                  {/* <button className={` bg-orange-400 hover:bg-orange-500 text-white rounded-full transition-colors w-[150px] h-[50px] mx-auto
                     ${plan.isHighlighted ? "mt-20" : "mt-10"}`}>
-                    Select Plan
-                  </button>
+                    {t("selectPlan")}
+                  </button> */}
                 </div>
               ))}
+          
+        
             </div>
+        <div className="flex  items-center justify-center">
+        <button
+            onClick={() => setSelectedPeriod("1month")}
+            className={`px-8 py-3 rounded-lg w-[189px] mt-20 h-[60px] text-center font-semibold transition-all bg-teal-500 text-white shadow-lg}`}
+          >
+          {t("selectPlan")}
+          </button>          
+        </div>
         </div>
       </div>
     </section>

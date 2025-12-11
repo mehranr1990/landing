@@ -1,4 +1,9 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export default function AdministrationAppStatus({ name, uptime }: { name: string, uptime: number }) {
+  const t = useTranslations("services.uptime");
 
     const uptimeDays = Array.from({ length: 90 }, (_, i) => ({
         day: i,
@@ -48,9 +53,9 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
 
       {/* Footer */}
       <div className="flex items-center justify-between text-sm">
-        <span className="text-[#807F7A]">90 day ago</span>
-        <span className="text-[#807F7A] font-medium">100.0 % uptime</span>
-        <span className="text-[#807F7A]">Today</span>
+        <span className="text-[#807F7A]">{t("daysAgo")}</span>
+        <span className="text-[#807F7A] font-medium">{t("uptime")}</span>
+        <span className="text-[#807F7A]">{t("today")}</span>
       </div>
     </div>
   );

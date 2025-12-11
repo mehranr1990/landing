@@ -3,9 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./language-switcher";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const t = useTranslations("navbar");
 
   const isActive = (path: string): boolean => {
     if (path === "/") {
@@ -32,7 +35,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            Home
+            {t("home")}
           </Link>
           <Link
             href="/pricing"
@@ -42,7 +45,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            Pricing
+            {t("pricing")}
           </Link>
           <Link
             href="/services"
@@ -52,7 +55,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            Services
+            {t("services")}
           </Link>
           <Link
             href="/about"
@@ -62,7 +65,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            About us
+            {t("about")}
           </Link>
           <Link
             href="/faq"
@@ -72,7 +75,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            FAQ
+            {t("faq")}
           </Link>
           <Link
             href="/blog"
@@ -82,7 +85,7 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            Blog
+            {t("blog")}
           </Link>
           <Link
             href="/licensing"
@@ -92,23 +95,24 @@ export default function Navbar() {
                 : "text-black hover:text-teal-500"
             }`}
           >
-            Licensing
+            {t("licensing")}
           </Link>
         </div>
 
         {/* Action Buttons */}
         <div className="flex items-center gap-3">
+          <LanguageSwitcher />
           <Link
             href="/login"
             className="rounded-full text-center bg-[#0EAA9A] hover:bg-teal-500 text-white   w-[150px] h-[50px] flex items-center justify-center"
           >
-            Login
+            {t("login")}
           </Link>
           <Link
             href="/signup"
             className="rounded-full bg-[#FF9D00] hover:bg-orange-400 text-white   w-[150px] h-[50px] flex items-center justify-center "
           >
-            Sign up
+            {t("signUp")}
           </Link>
         </div>
       </div>

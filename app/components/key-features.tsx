@@ -1,30 +1,36 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+
 export default function KeyFeatures() {
+  const t = useTranslations("keyFeatures");
+
   const features = [
     {
-      title: "Secure Trading",
-      description: "Advanced security features for safe trading",
+      title: t("secureTrading"),
+      description: t("secureTradingDesc"),
       icon: (
         <Image src="/icons/card-coin.png" alt="support" width={50} height={50} />
       ),
     },
     {
-      title: "Fast Processing",
-      description: "Lightning-fast transaction processing",
+      title: t("fastProcessing"),
+      description: t("fastProcessingDesc"),
       icon: (
         <Image src="/icons/bitcoin-card.png" alt="support" width={50} height={50} />
       ),
     },
     {
-      title: "Scalable System",
-      description: "Grows with your business needs",
+      title: t("scalableSystem"),
+      description: t("scalableSystemDesc"),
       icon: (
         <Image src="/icons/bitcoin-refresh.png" alt="support" width={50} height={50} />
       ),
     },
     {
-      title: "24/7 Support",
-      description: "Round-the-clock customer support",
+      title: t("support24"),
+      description: t("support24Desc"),
       icon: (
         <Image src="/icons/bitcoin-convert.png" alt="support" width={50} height={50} />
       ),
@@ -37,7 +43,7 @@ export default function KeyFeatures() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Key Features
+            {t("title")}
           </h2>
         </div>
 

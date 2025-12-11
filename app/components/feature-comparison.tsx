@@ -1,40 +1,46 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export default function FeatureComparison() {
+  const t = useTranslations("pricing.featureComparison");
+
   const features = [
     {
-      feature: "Number of Users",
+      feature: t("numberOfUsers"),
       economic: "1",
       popular: "3+",
-      superGold: "Unlimited",
+      superGold: t("available"),
     },
     {
-      feature: "Counterparty",
+      feature: t("counterparty"),
       economic: "150",
-      popular: "Unlimited",
-      superGold: "Unlimited",
+      popular: t("available"),
+      superGold: t("available"),
     },
     {
-      feature: "Basic Reports",
-      economic: "Available",
-      popular: "Available",
-      superGold: "Available",
+      feature: t("basicReports"),
+      economic: t("available"),
+      popular: t("available"),
+      superGold: t("available"),
     },
     {
-      feature: "Advanced Reports",
+      feature: t("advancedReports"),
       economic: "-",
       popular: "-",
-      superGold: "Available",
+      superGold: t("available"),
     },
     {
-      feature: "Financial Analytics",
+      feature: t("financialAnalytics"),
       economic: "-",
       popular: "-",
-      superGold: "Available",
+      superGold: t("available"),
     },
     {
-      feature: "Support",
-      economic: "Ticket",
-      popular: "Ticket/Call",
-      superGold: "Exclusive",
+      feature: t("support"),
+      economic: t("ticket"),
+      popular: t("ticketCall"),
+      superGold: t("exclusive"),
     },
   ];
 
@@ -43,7 +49,7 @@ export default function FeatureComparison() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Feature Comparison
+            {t("title")}
           </h2>
         </div>
 
@@ -53,17 +59,17 @@ export default function FeatureComparison() {
             <table className="w-full rounded-2xl mb-4">
               <thead>
                 <tr className="bg-[#C2B673]">
-                  <th className="px-14 py-7 text-left  text-white font-semibold rounded-l-3xl">
-                    Feature
+                  <th className="px-14 py-7 text-left  text-white font-semibold rounded-s-3xl">
+                    {t("feature")}
                   </th>
                   <th className="px-6 py-7 text-center text-white font-semibold">
-                    Economic
+                    {t("economic")}
                   </th>
                   <th className="px-6 py-7 text-center text-white font-semibold">
-                    Popular
+                    {t("popular")}
                   </th>
-                  <th className="px-6 py-7 text-center text-white font-semibold rounded-r-3xl">
-                    Super Gold
+                  <th className="px-6 py-7 text-center text-white font-semibold rounded-e-3xl">
+                    {t("superGold")}
                   </th>
                 </tr>
               </thead>

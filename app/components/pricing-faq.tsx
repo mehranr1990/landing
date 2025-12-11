@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ContactSupport from "./contact-support";
+import { useTranslations } from "next-intl";
 
 type FAQItem = {
   question: string;
@@ -10,29 +11,9 @@ type FAQItem = {
 
 export default function PricingFAQ() {
   const [openIndex, setOpenIndex] = useState<number>();
+  const t = useTranslations("pricing.faq");
 
-  const faqs: FAQItem[] = [
-    {
-      question: "Can I upgrade or downgrade my plan?",
-      answer:
-        "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.",
-    },
-    {
-      question: "What payment methods do you accept?",
-      answer:
-        "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway.",
-    },
-    {
-      question: "Is there a free trial available?",
-      answer:
-        "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days.",
-    },
-    {
-      question: "Do you offer refunds?",
-      answer:
-        "We offer refunds within 30 days of purchase if you're not satisfied with our service. Please contact our support team for assistance with refund requests.",
-    },
-  ];
+  const faqs: FAQItem[] = t.raw("items") as FAQItem[];
 
   const toggleFAQ = (index: number): void => {
     setOpenIndex(openIndex === index ? -1 : index);
@@ -44,7 +25,7 @@ export default function PricingFAQ() {
         {/* FAQ Section */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pricing FAQs
+            {t("title")}
           </h2>
         </div>
 

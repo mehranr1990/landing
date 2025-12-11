@@ -1,16 +1,21 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Licensing() {
+  const t = useTranslations("licensing");
+
   return (
     <section className="py-10  min-h-screen">
       <div className="mx-auto ">
         {/* Header Section */}
         <div className="text-center my-20">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
-            Licenses & Certificates
+            {t("title")}
           </h1>
           <p className="text-lg md:text-xl text-[#666666]">
-            Verify our credentials and business authenticity
+            {t("subtitle")}
           </p>
         </div>
 
@@ -33,25 +38,21 @@ export default function Licensing() {
           {/* Company Information Section */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-black">
-              Company Information
+              {t("companyInfo.title")}
             </h2>
             <p className="text-[#666666] leading-relaxed">
-              Arzfy is a subsidiary of "Economic NOVA Group" Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat.
+              {t("companyInfo.description")}
             </p>
             <div className="space-y-4 pt-4">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                 <span className="text-[#666666] ">
-                  Company Registration ID:
+                  {t("companyInfo.registrationId")}
                 </span>
                 <span className="text-black px-20">14010474001</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                 <span className="text-[#666666] ">
-                  Established:
+                  {t("companyInfo.established")}
                 </span>
                 <span className="text-black px-20">2021</span>
               </div>

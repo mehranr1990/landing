@@ -1,26 +1,29 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function HeroSection() {
+  const t = useTranslations("hero");
+
   return (
     <section className="relative overflow-hidden  text-white">
       {/* Decorative background elements */}
       
 
       {/* Main Hero Content */}
-      <div className="relative z-10 px-6 md:px-16 lg:px-24 py-16 md:py-30" style={{ backgroundImage: 'url(/background/hero.jpg)', backgroundSize: 'cover', }}>
-        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12">
+      <div dir="ltr" className="relative z-10 px-6 md:px-16 lg:px-24 py-16 md:py-30" style={{ backgroundImage: 'url(/background/hero.jpg)', backgroundSize: 'cover', }}>
+          
+        <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-start gap-12">
+          <div className="max-w-4xl ">
           {/* Text Section */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-              <span className="text-yellow-300">All-in-One Accounting</span>
-              <br />
-              <span className="text-yellow-300">for Digital Finance</span>
+              <span className="text-yellow-300">{t("title")}</span>
             </h1>
 
             <p className="mt-6 text-gray-100 text-base md:text-lg max-w-xl mx-auto md:mx-0 leading-relaxed">
-              Arzfy helps crypto and fiat exchange automate accounting, eliminate
-              errors, and gain real-time financial insights — all in one secure and
-              intelligent platform.
+              {t("subtitle")}
             </p>
 
             <div className="mt-8 flex flex-col flex-row gap-4 justify-center md:justify-start">
@@ -28,19 +31,19 @@ export default function HeroSection() {
                 href="#get-started"
                 className="rounded-full bg-[#0EAA9A] hover:bg-teal-500 text-white  w-[150px] h-[50px] flex items-center justify-center"
               >
-                Get Started
+                {t("getStarted")}
               </a>
               <a
                 href="#demo"
                 className="rounded-full border-2 border-white hover:bg-white/10 text-white   w-[150px] h-[50px] flex items-center justify-center"
               >
-                Watch Demo
+                {t("watchDemo")}
               </a>
             </div>
           </div>
 
           {/* Illustration Section */}
-       
+          </div>
         </div>
       </div>
 
@@ -50,10 +53,10 @@ export default function HeroSection() {
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-10">
               <p className="text-gray-700  md:text-base font-medium">
-                Up to 99.99 Percent Up-Time
+                {t("uptimeTitle")}
               </p>
               <p className="text-gray-600  md:text-base">
-                Import Accounting Data Lower than 3 minutes.
+                {t("importTime")}
               </p>
             </div>
             
@@ -65,8 +68,8 @@ export default function HeroSection() {
                   2+
                 </h3>
                 </div>
-                <p className="text-gray-600 text-sm">Years</p>
-                <p className="text-gray-500 text-sm">Uptime</p>
+                <p className="text-gray-600 text-sm">{t("years")}</p>
+                <p className="text-gray-500 text-sm">{t("uptime")}</p>
               </div>
               
               {/* Card 2 */}
@@ -76,8 +79,8 @@ export default function HeroSection() {
                   470+
                 </h3>
                 </div>
-                <p className="text-gray-600 text-sm">Real Users</p>
-                <p className="text-gray-500 text-sm">Trust Us</p>
+                <p className="text-gray-600 text-sm">{t("realUsers")}</p>
+                <p className="text-gray-500 text-sm">{t("trustUs")}</p>
               </div>
               
               {/* Card 3 */}
@@ -87,8 +90,8 @@ export default function HeroSection() {
                   237
                 </h3>
                 </div>
-                <p className="text-gray-600 text-sm">Days</p>
-                <p className="text-gray-500 text-sm">No Incidents</p>
+                <p className="text-gray-600 text-sm">{t("days")}</p>
+                <p className="text-gray-500 text-sm">{t("noIncidents")}</p>
               </div>
             </div>
           </div>
