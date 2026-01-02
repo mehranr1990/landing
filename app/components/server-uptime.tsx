@@ -27,7 +27,7 @@ export default function ServerUptime() {
          
 
           {/* Bar Chart */}
-          <div className="relative md:display-block hidden">
+          <div className="relative sm:hidden md:block ">
             {/* Bars Container */}
             <div className="flex items-end justify-between gap-[6px] h-32 mb-4">
               {uptimeDays.map((day) => (
