@@ -38,7 +38,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#F8F8F0] border-b border-gray-100 px-6 md:px-16 lg:px-24 py-4 relative">
+    <nav className="bg-[#F8F8F0] border-b border-gray-100 px-6 md:px-16 lg:px-24 py-4 relative z-50">
       <div className="mx-auto w-full flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
@@ -106,7 +106,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-[#F8F8F0] border-b border-gray-100 shadow-lg transition-all duration-300 ease-in-out ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-[#F8F8F0] border-b border-gray-100 shadow-lg transition-all duration-300 ease-in-out z-50 ${
           isMobileMenuOpen
             ? "max-h-screen opacity-100 visible"
             : "max-h-0 opacity-0 invisible"
