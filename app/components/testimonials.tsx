@@ -5,8 +5,6 @@ import { useTranslations } from "next-intl";
 type Testimonial = {
   quote: string;
   name: string;
-  title: string;
-  company: string;
 };
 
 export default function Testimonials() {
@@ -16,20 +14,16 @@ export default function Testimonials() {
     {
       quote: t("testimonial1.quote"),
       name: t("testimonial1.name"),
-      title: t("testimonial1.title"),
-      company: t("testimonial1.company"),
     },
     {
       quote: t("testimonial2.quote"),
       name: t("testimonial2.name"),
-      title: t("testimonial2.title"),
-      company: t("testimonial2.company"),
     },
   ];
 
   return (
     <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-5xl">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -42,22 +36,19 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl   p-8 border-2 border-[#E9E9E0] hover:shadow-xl transition-shadow"
-            >
+              className="bg-white rounded-3xl   p-8 border-2 border-[#E9E9E0] hover:shadow-xl transition-shadow"
+              >
+              <div>
+                <h3 className=" font-bold text-gray-900 mb-1">
+                  {testimonial.name}
+                </h3>
+              </div>
               {/* Quote */}
-              <p className="text-[#06444C] text-base leading-relaxed mb-10">
+              <p className="text-[#06444C] text-base leading-relaxed mt-10">
                 {testimonial.quote}
               </p>
 
               {/* Client Info */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-1">
-                  {testimonial.name}
-                </h3>
-                <p className="text-sm text-gray-500">
-                  {testimonial.title}, {testimonial.company}
-                </p>
-              </div>
             </div>
           ))}
         </div>

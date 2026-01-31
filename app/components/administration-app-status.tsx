@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 export default function AdministrationAppStatus({ name, uptime }: { name: string, uptime: number }) {
   const t = useTranslations("services.uptime");
 
-    const uptimeDays = Array.from({ length: 90 }, (_, i) => ({
+    const uptimeDays = Array.from({ length: 60 }, (_, i) => ({
         day: i,
         uptime: uptime,
         date: new Date(Date.now() - (89 - i) * 24 * 60 * 60 * 1000),
@@ -13,7 +13,7 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
     
 
   return (
-    <div className="bg-white rounded-4xl border border-[#CECDC4]  py-10 px-16 mb-6 max-w-7xl mx-auto">
+    <div className="bg-white rounded-4xl border border-[#CECDC4]  py-10 px-16 mb-6 max-w-6xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold text-black">{name}</h3>
@@ -35,11 +35,13 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
       </div>
 
       {/* Uptime Visualization - Horizontal bars */}
-      <div className="flex items-end justify-between gap-[6px] h-16 mb-4">
+      <div className="relative sm:hidden md:block ">
+            {/* Bars Container */}
+            <div className="flex items-end justify-between gap-[6px] h-24 mb-4">
               {uptimeDays.map((day) => (
                 <div
                   key={day.day}
-                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 hover:scale-120 rounded-sm transition-colors cursor-pointer group relative"
+                  className="flex-1 bg-[#20AA0E]  hover:scale-120 rounded-sm transition-colors cursor-pointer group relative"
                   style={{ height: `${day.uptime}%` }}
                   title={`${day.date.toLocaleDateString()} - ${day.uptime}%`}
                 >
@@ -49,6 +51,7 @@ export default function AdministrationAppStatus({ name, uptime }: { name: string
                   </div>
                 </div>
               ))}
+            </div>
             </div>
 
       {/* Footer */}

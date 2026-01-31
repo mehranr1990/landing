@@ -2,7 +2,8 @@
   "common": {
     "home": "Home",
     "pricing": "Pricing",
-    "services": "Services",
+    "services": "Help Center",
+    "features":"Features",
     "about": "About us",
     "faq": "FAQ",
     "blog": "Blog",
@@ -15,63 +16,68 @@
     "contactUs": "Contact Us",
     "send": "Send",
     "search": "Search...",
-    "learnMore": "Learn More",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfUse": "Terms of Use",
+    "learnMore": "Privacy Policy",
+    "privacyPolicy": "Terms of Service",
+    "termsOfUse": "Security",
     "allRightsReserved": "All right reserved",
     "downloadApp": "Download App"
   },
   "navbar": {
     "home": "Home",
     "pricing": "Pricing",
-    "services": "Services",
+    "services": "System Status",
     "about": "About us",
     "faq": "FAQ",
     "blog": "Blog",
     "licensing": "Licensing",
-    "login": "Login",
+    "login": "Get Start",
     "signUp": "Sign up"
   },
   "hero": {
-    "title": "All-in-One Accounting for Digital Finance",
-    "subtitle": "Arzfy helps crypto and fiat exchange automate accounting, eliminate errors, and gain real-time financial insights — all in one secure and intelligent platform.",
-    "getStarted": "Get Started",
-    "watchDemo": "Watch Demo",
+    "title": "The Ultimate Accounting OS for Crypto & Fiat Exchanges",
+    "subtitle": "Manage assets, track real-time P&L, and streamline daily operations in one secure platform. Designed for accountants, built for exchange owners.",
+    "getStarted": "Request Demo",
+    "watchDemo": "See How It Works",
     "uptimeTitle": "Up to 99.99 Percent Up-Time",
-    "importTime": "Import Accounting Data Lower than 3 minutes.",
-    "years": "Years",
-    "uptime": "Uptime",
-    "realUsers": "Real Users",
-    "trustUs": "Trust Us",
-    "days": "Days",
-    "noIncidents": "No Incidents"
+    "importTime": "Import Accounting Data Lower than 5 minutes.",
+    "years": "Supported Assets",
+    "uptime": "Crypto, Fiat, Gold & Oil",
+    "realUsers": "Accounting Errors",
+    "trustUs": "Automated Dual-Entry System",
+    "min": "5 Min",
+    "hundred":"100+",
+    "zero": "Zero",
+    "days": "Migration Time",
+    "noIncidents": "Fast & Secure Data Import"
   },
   "keyFeatures": {
     "title": "Key Features",
-    "secureTrading": "Secure Trading",
-    "secureTradingDesc": "Advanced security features for safe trading",
-    "fastProcessing": "Fast Processing",
-    "fastProcessingDesc": "Lightning-fast transaction processing",
-    "scalableSystem": "Scalable System",
-    "scalableSystemDesc": "Grows with your business needs",
-    "support24": "24/7 Support",
-    "support24Desc": "Round-the-clock customer support"
+    "secureTrading": "Seamless Migration",
+    "secureTradingDesc": "Switch to Arzfy in minutes using our 4-step intelligent import wizard. No data loss guaranteed.",
+    "fastProcessing": "Multi-Asset Engine",
+    "fastProcessingDesc": "Manage Crypto, Fiat, Gold, and Oil operations in one unified accounting dashboard.",
+    "scalableSystem": "Role-Based Security",
+    "scalableSystemDesc": "Define precise access levels for Owners, Accountants, and Cashiers to protect sensitive data.",
+    "support24": "Real-Time P&L",
+    "support24Desc": "Instantly view profit and loss reports for every transaction, separated by asset type and branch."
   },
   "subscriptionPlans": {
-    "title": "Subscription Plans",
-    "subtitle": "Choose your best plan",
+    "title": "Transparent Pricing for Every Exchange",
+    "subtitle": "Choose the plan that fits your volume. No hidden fees. Upgrade anytime.",
     "oneMonth": "1 Month",
     "threeMonth": "3 Month",
     "oneYear": "1 Year",
     "perMonth": "per month",
-    "selectPlan": "Select Plan",
+    "perThreeMonths": "per 3 months",
+    "perYear": "per year",
+    "selectPlan": "Choose Plan",
     "economic": {
-      "name": "ECONIMIC",
+      "name": "Starter",
       "features": [
         "1 user (expandable)",
         "150 counterparty account",
         "Basic reports",
-        "Ticket support",
+        "Standard Support",
         "+$59 per additional user"
       ]
     },
@@ -81,12 +87,12 @@
         "3 user (expandable)",
         "Unlimited counterparty",
         "Basic + Advanced reports",
-        "Ticket support",
+        "Priority Ticket Support",
         "+$59 per additional user"
       ]
     },
     "superGold": {
-      "name": "SUPER GOLD",
+      "name": "Enterprise",
       "features": [
         "Unlimited user",
         "Unlimited counterparty",
@@ -97,74 +103,59 @@
     }
   },
   "testimonials": {
-    "title": "What Our Clients Say",
+    "title": "Who is Arzfy For?",
     "testimonial1": {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "name": "John Doe",
-      "title": "CEO",
-      "company": "Company A"
+      "quote": "Launch your exchange with a solid financial foundation. Setup generic accounting roles and start trading instantly with our preset configurations.",
+      "name": "For Crypto Startups"
     },
     "testimonial2": {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "name": "Jane Smith",
-      "title": "CTO",
-      "company": "Company B"
+      "quote": "Handle complex operations involving Gold, Oil, and Fiat remittances with bank-grade security and role-based access control for large teams.",
+      "name": "For Enterprise Exchanges"
     }
   },
   "downloadApp": {
-    "title": "Download the App",
-    "description": "Get our app on your favorite device. Works well always on to date.",
+    "title": "Control Your Exchange from Anywhere",
+    "description": "Track real-time profits, manage support tickets, and monitor user activity directly from your phone. Available for iOS and Android.",
     "downloadApp": "Download App"
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "How do I get started with Arzfy?",
-        "answer": "Getting started with Arzfy is simple. First, create an account by signing up with your email address. Then, complete the verification process to ensure your account security. Once verified, you can start exploring our features and begin trading on the platform."
+        "question": "Is Arzfy only for Crypto exchanges",
+        "answer": "No. Arzfy is a multi-asset accounting platform. We fully support Fiat (Cash/Bank), Gold, Oil, and Cryptocurrency operations in a single unified dashboard."
       },
       {
-        "question": "What are the system requirement?",
-        "answer": "Arzfy works on most modern devices. For desktop, you need Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution. For mobile, iOS 12 or later and Android 8.0 or later are supported. A stable internet connection is recommended for the best experience."
+        "question": "How difficult is it to migrate my data from Excel or other software",
+        "answer": "It takes less than 5 minutes. Our intelligent 4-Step Migration Wizard allows you to import your user data and financial records securely without any data loss."
       },
       {
-        "question": "Can I migrate from another exchange platform?",
-        "answer": "Yes, you can migrate from other exchange platforms. We provide migration tools and support to help you transfer your trading history and account data. Contact our support team for assistance with the migration process."
+        "question": "Can I define different access levels for my employees",
+        "answer": "Yes. Arzfy features advanced Role-Based Access Control (RBAC). You can define specific permissions for Owners, Accountants, Cashiers, and Branch Managers."
       },
       {
-        "question": "What payment methods do you accept?",
-        "answer": "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway. For specific payment options available in your region, please check our payment methods page."
+        "question": "Is my financial data secure",
+        "answer": "Security is our top priority. We use bank-grade encryption, automated daily backups, and strict privacy protocols to ensure your financial records are safe and confidential."
       },
       {
-        "question": "Is there a free trial available?",
-        "answer": "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days, giving you plenty of time to evaluate our services."
-      },
-      {
-        "question": "How secure is Arzfy?",
-        "answer": "Security is our top priority. We use industry-leading encryption, two-factor authentication, and regular security audits to protect your data and funds. All transactions are monitored 24/7, and we follow strict compliance standards to ensure your information remains safe."
-      },
-      {
-        "question": "Can I upgrade or downgrade my plan?",
-        "answer": "Absolutely! You can upgrade or downgrade your subscription plan at any time. Changes to your plan will be reflected in your next billing cycle. If you upgrade, you'll get immediate access to the new features. If you downgrade, the changes will take effect at the start of the next billing period."
-      },
-      {
-        "question": "What kind of support do you provide?",
-        "answer": "We offer comprehensive support through multiple channels. Our support team is available 24/7 via live chat, email, and phone. We also provide extensive documentation, video tutorials, and a knowledge base to help you find answers to common questions quickly."
+        "question": "Do I need to install software on my computer",
+        "answer": "No, Arzfy is a cloud-based platform. You can access your accounting panel securely from any device, anywhere in the world."
       }
     ]
   },
   "serverUptime": {
-    "title": "Server Uptime",
-    "subtitle": "100.0% For 90 Days",
-    "daysAgo": "90-day ago",
+    "title": "Bank-Grade Infrastructure",
+    "subtitle": "We guarantee 99.99% Uptime with our high-availability architecture.",
+    "subtitle1": "Your exchange never sleeps, and neither do we.",
+    "daysAgo": "60-day ago",
     "today": "Today"
   },
   "footer": {
     "quickLinks": "Quick Links",
     "resources": "Resources",
     "followUs": "Follow Us",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    "copyright": "© 2025 Arzfy. All right reserved."
+    "description": "Arzfy is the premier all-in-one accounting platform designed for modern exchanges. We empower businesses to manage Crypto, Fiat, and Gold assets with bank-grade security and real-time financial insights.",
+    "copyright": "© 2026 Arzfy Inc. All rights reserved."
   },
   "pricing": {
     "hero": {
@@ -176,19 +167,15 @@
       "items": [
         {
           "question": "Can I upgrade or downgrade my plan?",
-          "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+          "answer": "Absolutely. You can scale your plan up as your exchange grows or add more user licenses instantly from your panel."
         },
         {
-          "question": "What payment methods do you accept?",
-          "answer": "We accept various payment methods including credit cards, debit cards, bank transfers, and popular cryptocurrencies. All transactions are processed securely through our encrypted payment gateway."
+          "question": "What happens if I miss a payment",
+          "answer": "We provide a 7-day grace period to ensure your exchange operations are not interrupted. After that, access will be restricted to 'Read-Only' mode."
         },
         {
-          "question": "Is there a free trial available?",
-          "answer": "Yes, we offer a free trial period for new users. During the trial, you can explore all features and get a feel for the platform. The trial period typically lasts for 14 days."
-        },
-        {
-          "question": "Do you offer refunds?",
-          "answer": "We offer refunds within 30 days of purchase if you're not satisfied with our service. Please contact our support team for assistance with refund requests."
+          "question": "Do you offer a free trial",
+          "answer": "Yes, the 'Starter' plan comes with a 14-day free trial so you can experience the power of Arzfy risk-free."
         }
       ]
     },
@@ -207,32 +194,34 @@
       "available": "Available",
       "ticket": "Ticket",
       "ticketCall": "Ticket/Call",
-      "exclusive": "Exclusive"
+      "exclusive": "Exclusive",
+      "unlimited":"Unlimited"
     }
   },
   "about": {
     "hero": {
-      "title": "About Arzfy",
-      "subtitle": "Empowering Finance Exchanges with professional management solutions since 2021"
+      "title": "Empowering the Future of Digital Exchanges",
+      "subtitle": "Bridging the gap between traditional finance and the crypto economy with intelligent accounting solutions."
     },
     "ourStory": {
       "title": "Our Story",
-      "p1": "Arzfy was founded in 2021 as a subsidiary of \"Economic Group Amin Etemad Farda\" with a mission to revolutionize crypto exchange management.",
-      "p2": "Our journey began when we recognized the growing need for comprehensive, secure, and user-friendly management solutions in the cryptocurrency industry. We set out to create a platform that would empower exchange operators with the tools they need to succeed in this rapidly evolving market.",
-      "p3": "Today, Arzfy serves numerous crypto exchanges worldwide, providing them with cutting-edge accounting systems, user management, analytics, and reporting capabilities. Our commitment to innovation and customer success drives everything we do."
+      "p1": "Arzfy was born from a simple realization: Traditional accounting software couldn't keep up with the speed and complexity of cryptocurrency exchanges.",
+      "p2": "Founded by a team of fintech experts and software engineers, we set out to build a platform that speaks both languages: the precision of double-entry bookkeeping and the dynamism of blockchain technology.",
+      "p3": "Today, Arzfy is an independent, cutting-edge technology company dedicated to solving the most critical challenges for exchange owners: automation, accuracy, and security. We are not just a software provider; we are the financial backbone of your business."
     },
     "stats": {
-      "businesses": "Businesses",
-      "uptime": "Uptime",
-      "support": "Support"
+      "accuracy": "100% Accuracy",
+      "availability": "24/7 System Availability",
+      "support": "Multi-Asset Support",
+      "security": "Bank-Grade Security"
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To provide the most reliable and comprehensive crypto exchange management platform, empowering businesses to operate efficiently and securely in the digital economy."
+      "description": "To eliminate financial chaos in exchanges by providing a secure, \"All-in-One\" platform that ensures zero accounting errors and seamless asset management."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To become the global standard for crypto exchange management, recognized for innovation, reliability, and exceptional customer service."
+      "description": "To become the global standard operating system for digital finance businesses, trusted by exchanges across the Middle East and beyond."
     },
     "contact": {
       "title": "Get In Touch",
@@ -355,13 +344,27 @@
     ]
   },
   "licensing": {
-    "title": "Licenses & Certificates",
-    "subtitle": "Verify our credentials and business authenticity",
+    "title": "Corporate Compliance & Security",
+    "subtitle": "Operating with transparency, adhering to global financial technology standards.",
     "companyInfo": {
       "title": "Company Information",
-      "description": "Arzfy is a subsidiary of \"Economic NOVA Group\" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "registrationId": "Company Registration ID:",
-      "established": "Established:"
+      "description": "Arzfy is a global financial technology provider dedicated to empowering digital asset exchanges with enterprise-grade accounting solutions.Our platform is built upon international industry standards and best practices to guarantee the highest levels of data security, privacy, and operational reliability for clients worldwide.",
+      "companyname": "Company Name: Arzfy Technology Solutions",
+      "registration":"Registration Status: Active / Limited Liability Company (LLC)",
+      "headquarters":"Headquarters: Turkey",
+      "established": "Established: 2024:"
+    }
+  },
+  "securityDataPrivacy": {
+    "title": "Security & Data Privacy",
+    "description": "We prioritize the safety of financial operations through advanced encryption and global privacy standards.",
+    "sslEncryption": {
+      "title": "SSL/TLS Encryption",
+      "description": "All data transmission is protected by 256-bit SSL encryption"
+    },
+    "gdprCompliant": {
+      "title": "GDPR Compliant",
+      "description": "We adhere to global data protection regulations to respect user privacy"
     }
   },
   "contactSupport": {
@@ -371,4 +374,3 @@
     "send": "Send"
   }
 }
-

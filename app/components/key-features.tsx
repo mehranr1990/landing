@@ -38,7 +38,7 @@ export default function KeyFeatures() {
   ];
 
   return (
-    <section className=" py-16 px-6 md:px-16 lg:px-24">
+    <section className=" py-8 px-6 md:px-16 lg:px-24">
       <div className="mx-auto max-w-6xl">
         {/* Header */}
         <div className="text-center mb-12">
@@ -65,7 +65,7 @@ export default function KeyFeatures() {
               </h3>
 
               {/* Description */}
-              <p className="text-sm text-gray-600 leading-relaxed mx-6">
+              <p className="text-[12px] text-gray-600 leading-relaxed ">
                 {feature.description}
               </p>
             </div>

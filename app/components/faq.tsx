@@ -20,7 +20,7 @@ export default function FAQ() {
 
   return (
     <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             {t("title")}
@@ -46,8 +46,8 @@ export default function FAQ() {
               </button>
               {openIndex === index && (
                 <div className="px-6 pb-6">
-                  <div className="bg-white rounded-lg p-4">
-                    <p className="text-gray-600 leading-relaxed">
+                  <div className="bg-white text-lg rounded-lg p-4">
+                    <p className="text-gray-900 leading-relaxed">
                       {faq.answer}
                     </p>
                   </div>

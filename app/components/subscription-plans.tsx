@@ -5,33 +5,57 @@ import { useTranslations } from "next-intl";
 
 type PlanPeriod = "1month" | "3month" | "1year";
 
+type PlanType = "economic" | "professional" | "superGold";
+
+interface PricingStructure {
+  [key: string]: {
+    [key in PlanPeriod]: { price: string; period: string };
+  };
+}
+
 export default function SubscriptionPlans() {
   const [selectedPeriod, setSelectedPeriod] = useState<PlanPeriod>("1month");
   const t = useTranslations("subscriptionPlans");
 
+  const pricing: PricingStructure = {
+    economic: {
+      "1month": { price: "$79", period: t("perMonth") },
+      "3month": { price: "$213", period: t("perThreeMonths") },
+      "1year": { price: "$758", period: t("perYear") },
+    },
+    professional: {
+      "1month": { price: "$199", period: t("perMonth") },
+      "3month": { price: "$537", period: t("perThreeMonths") },
+      "1year": { price: "$1910", period: t("perYear") },
+    },
+    superGold: {
+      "1month": { price: "$499", period: t("perMonth") },
+      "3month": { price: "$1347", period: t("perThreeMonths") },
+      "1year": { price: "$4788", period: t("perYear") },
+    },
+  };
+
   const plans = [
     {
       name: t("economic.name"),
-      price: "$79",
-      period: t("perMonth"),
+      planType: "economic" as PlanType,
       features: t.raw("economic.features") as string[],
       isHighlighted: false,
     },
     {
-      name: t("superGold.name"),
-      price: "$499",
-      period: t("perMonth"),
-      features: t.raw("superGold.features") as string[],
+      name: t("professional.name"),
+      planType: "professional" as PlanType,
+      features: t.raw("professional.features") as string[],
       isHighlighted: true,
     },
     {
-      name: t("professional.name"),
-      price: "$199",
-      period: t("perMonth"),
-      features: t.raw("professional.features") as string[],
+      name: t("superGold.name"),
+      planType: "superGold" as PlanType,
+      features: t.raw("superGold.features") as string[],
       isHighlighted: false,
     },
   ];
+  
 
   return (
     <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
@@ -49,7 +73,7 @@ export default function SubscriptionPlans() {
           <button
             onClick={() => setSelectedPeriod("1month")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1month"
-              ? "bg-orange-400 text-white shadow-lg"
+              ? "bg-[#0EAA9A] text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
@@ -58,7 +82,7 @@ export default function SubscriptionPlans() {
           <button
             onClick={() => setSelectedPeriod("3month")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "3month"
-              ? "bg-orange-400 text-white shadow-lg"
+              ? "bg-[#0EAA9A] text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
@@ -67,7 +91,7 @@ export default function SubscriptionPlans() {
           <button
             onClick={() => setSelectedPeriod("1year")}
             className={`px-8 py-3 rounded-lg w-[189px] h-[60px] text-center font-semibold transition-all ${selectedPeriod === "1year"
-              ? "bg-orange-400 text-white shadow-lg"
+              ? "bg-[#0EAA9A] text-white shadow-lg"
               : "bg-white text-gray-700 hover:bg-gray-50"
               }`}
           >
@@ -76,7 +100,7 @@ export default function SubscriptionPlans() {
         </div>
 
           <div className="max-w-7xl mx-auto mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {plans.map((plan) => (
                 <div
                   key={plan.name}
@@ -85,7 +109,7 @@ export default function SubscriptionPlans() {
                   <div
                     className={`rounded-4xl shadow-lg w-full max-w-sm p-4 pt-14 ${
                       plan.isHighlighted
-                        ? "bg-gradient-to-bl from-[#D180F9] to-[#FF9D00] text-white scale-115"
+                        ? "bg-gradient-to-bl from-[#D180F9] to-[#FF9D00]"
                         : "bg-white"
                     }`}
                   >
@@ -103,7 +127,7 @@ export default function SubscriptionPlans() {
                             plan.isHighlighted ? "text-white" : "text-[#3D3D3D]"
                           }`}
                         >
-                          {plan.price}
+                          {pricing[plan.planType][selectedPeriod].price}
                         </span>
                       </div>
                       <p
@@ -113,7 +137,7 @@ export default function SubscriptionPlans() {
                             : "text-[#3D3D3D]"
                         }`}
                       >
-                        {plan.period}
+                        {pricing[plan.planType][selectedPeriod].period}
                       </p>
                     </div>
                     <div
@@ -158,7 +182,7 @@ export default function SubscriptionPlans() {
         <div className="flex  items-center justify-center">
         <button
             onClick={() => setSelectedPeriod("1month")}
-            className={`px-8 py-3 rounded-lg w-[189px] mt-20 h-[60px] text-center font-semibold transition-all bg-teal-500 text-white shadow-lg}`}
+            className={`px-8 py-3 rounded-full w-[150px] mt-10 h-[50px] text-center text-sm  transition-all bg-[#FF9D00]  text-white shadow-lg}`}
           >
           {t("selectPlan")}
           </button>          

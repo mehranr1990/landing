@@ -11,7 +11,7 @@ export default function Footer() {
   const quickLinks = [
     { name: tCommon("home"), href: "/" },
     { name: tCommon("pricing"), href: "/pricing" },
-    { name: tCommon("services"), href: "/services" },
+    { name: tCommon("features"), href: "/services" },
     { name: tCommon("about"), href: "/about" },
   ];
 

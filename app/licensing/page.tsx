@@ -1,14 +1,12 @@
-import Navbar from "../components/navbar";
+
 import Licensing from "../components/licensing";
-import Footer from "../components/footer";
+import SecurityDataPrivacy from "../components/security-data-privacy";
 
 export default function LicensingPage() {
   return (
     <main>
-      <Navbar />
       <Licensing />
-      
-      <Footer />
+      <SecurityDataPrivacy />
     </main>
   );
 }

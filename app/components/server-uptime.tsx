@@ -5,21 +5,22 @@ import { useTranslations } from "next-intl";
 export default function ServerUptime() {
   const t = useTranslations("serverUptime");
   // Generate 90 days of uptime data (all green for 100% uptime)
-  const uptimeDays = Array.from({ length: 90 }, (_, i) => ({
+  const uptimeDays = Array.from({ length: 60 }, (_, i) => ({
     day: i,
     uptime: 100,
     date: new Date(Date.now() - (89 - i) * 24 * 60 * 60 * 1000),
   }));
 
   return (
-    <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
-      <div className="mx-auto max-w-7xl">
+    <section className="bg-white py-12 px-6 md:px-16 lg:px-24">
+      <div className="mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             {t("title")}
           </h2>
           <p className="text-gray-600">{t("subtitle")}</p>
+          <p className="text-gray-600">{t("subtitle1")}</p>
         </div>
 
         {/* Uptime Chart */}

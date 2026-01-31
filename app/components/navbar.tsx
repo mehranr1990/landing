@@ -38,7 +38,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#F8F8F0] border-b border-gray-100 px-6 md:px-16 lg:px-24 py-4 relative z-50">
+    <nav className="bg-[#F8F8F0] border-b border-gray-100 px-6 md:px-16 lg:px-24 py-1 relative z-50">
       <div className="mx-auto w-full flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
@@ -46,7 +46,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex items-center xl:gap-16 gap-6">
+        <div className="hidden lg:flex items-center text-sm  xl:gap-16 gap-6">
           {navigationLinks.map((link) => (
             <Link
               key={link.href}
@@ -63,26 +63,26 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Action Buttons */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <LanguageSwitcher />
           <Link
-            href="/login"
-            className="rounded-full text-center bg-[#0EAA9A] hover:bg-teal-500 text-white w-[150px] h-[50px] flex items-center justify-center"
+            href="#get-started"
+            className="rounded-full text-center bg-[#0EAA9A] hover:bg-teal-500 text-white w-[120px] h-[36px] flex items-center justify-center"
           >
             {t("login")}
           </Link>
-          <Link
+          {/* <Link
             href="/signup"
-            className="rounded-full bg-[#FF9D00] hover:bg-orange-400 text-white w-[150px] h-[50px] flex items-center justify-center"
+            className="rounded-full bg-[#FF9D00] hover:bg-orange-400 text-white w-[120px] h-[36px] flex items-center justify-center"
           >
             {t("signUp")}
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Hamburger Menu Button */}
         <button
           onClick={toggleMobileMenu}
-          className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
+          className="lg:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
           aria-label="Toggle menu"
           aria-expanded={isMobileMenuOpen}
         >
@@ -106,7 +106,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-[#F8F8F0] border-b border-gray-100 shadow-lg transition-all duration-300 ease-in-out z-50 ${
+        className={`lg:hidden absolute top-full left-0 right-0 bg-[#F8F8F0] border-b border-gray-100 shadow-lg transition-all duration-300 ease-in-out z-50 ${
           isMobileMenuOpen
             ? "max-h-screen opacity-100 visible"
             : "max-h-0 opacity-0 invisible"

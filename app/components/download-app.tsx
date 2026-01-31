@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-export default function DownloadApp() {
+export default function ownloadApp() {
   const t = useTranslations("downloadApp");
   const socialIcons = [
     {
@@ -51,15 +51,15 @@ export default function DownloadApp() {
 
           <div className="relative z-10 flex flex-col items-center justify-center">
             {/* Title */}
-            <h2 className="text-3xl md:text-4xl font-bold text-balck mb-6">
+            <h2 className="text-3xl md:text-5xl  mx-14 text-white mb-6">
               {t("title")}
             </h2>
-            <p className="text-white/80 mb-4 max-w-[250px] text-sm">
+            <p className="text-white/80 mb-12 max-w-[280px] text-sm">
               {t("description")}
             </p>
 
             {/* Social Icons */}
-            <div className="flex items-center justify-center gap-4 mb-8">
+            <div className="flex items-center justify-center gap-4 ">
               {socialIcons.map((social, index) => (
                 <a
                   key={index}
@@ -75,7 +75,7 @@ export default function DownloadApp() {
             {/* Download Button */}
             <a
               href="#"
-              className="inline-block px-10 py-3 my-10 bg-[#FF9D00] text-white font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+              className="inline-block px-10 py-3 my-10 bg-[#FF9D00] text-white  rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
             >
               {t("downloadApp")}
             </a>

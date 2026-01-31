@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
+      <section className="bg-white py-26 px-6 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-4xl md:text-5xl text-black mb-4">
             {t("hero.title")}
@@ -23,10 +23,10 @@ export default function AboutUs() {
 
       {/* Content Section */}
       <section className="bg-[#F8F8F1] py-16 px-6 md:px-16 lg:px-24">
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-6xl">
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             {/* Left Side - Our Story */}
-            <div className="flex-1 space-y-6">
+            <div className="flex-1 space-y-6 max-w-3xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold text-teal-500">
                 {t("ourStory.title")}
               </h2>
@@ -44,30 +44,30 @@ export default function AboutUs() {
             </div>
 
             {/* Right Side - Statistics Card */}
-            <div className="w-full lg:w-auto lg:min-w-[350px]">
+            <div className="w-full lg:w-auto lg:min-w-[300px]">
               <div className="bg-white rounded-4xl shadow-sm p-8 space-y-8">
                 <div className=" flex items-center justify-start px-10 gap-8">
-                    <div className="text-2xl  md:text-2xl font-bold text-[#FF9D00] mb-2">
-                      470+
-                    </div>
+                   
                     <span className="text-[#666666] text-center font-medium">
-                      {t("stats.businesses")}
+                      {t("stats.accuracy")}
                     </span>
                 </div>
                 <div className="flex items-center justify-start px-10 gap-8">
-                  <div className="text-2xl md:text-2xl font-bold text-[#FF9D00] mb-2">
-                    99.9%
-                  </div>
+                 
                   <div className="text-[#666666] text-center font-medium">
-                    {t("stats.uptime")}
+                    {t("stats.availability")}
                   </div>
                 </div>
                 <div className="flex items-center justify-start px-10 gap-8">
-                  <div className="text-2xl md:text-2xl font-bold text-[#FF9D00] mb-2">
-                    24/7
-                  </div>
+                 
                   <div className="text-[#666666] text-center font-medium">
                     {t("stats.support")}
+                  </div>
+                </div>
+                <div className="flex items-center justify-start px-10 gap-8">
+                 
+                  <div className="text-[#666666] text-center font-medium">
+                    {t("stats.security")}
                   </div>
                 </div>
               </div>

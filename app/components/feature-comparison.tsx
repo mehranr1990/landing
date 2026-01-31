@@ -10,13 +10,13 @@ export default function FeatureComparison() {
       feature: t("numberOfUsers"),
       economic: "1",
       popular: "3+",
-      superGold: t("available"),
+      superGold: t("unlimited"),
     },
     {
       feature: t("counterparty"),
       economic: "150",
-      popular: t("available"),
-      superGold: t("available"),
+      popular: t("unlimited"),
+      superGold: t("unlimited"),
     },
     {
       feature: t("basicReports"),
@@ -46,7 +46,7 @@ export default function FeatureComparison() {
 
   return (
     <section className="bg-white py-16 px-6 md:px-16 lg:px-24">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {t("title")}
@@ -59,7 +59,7 @@ export default function FeatureComparison() {
             <table className="w-full rounded-2xl mb-4">
               <thead>
                 <tr className="bg-[#C2B673]">
-                  <th className="px-14 py-7 text-left text-white font-semibold rounded-s-3xl">
+                  <th className="px-16 py-7 text-left text-white font-semibold rounded-s-3xl">
                     {t("feature")}
                   </th>
                   <th className="px-6 py-7 text-center text-white font-semibold">
