@@ -15,6 +15,7 @@ interface PricingStructure {
 
 export default function SubscriptionPlans() {
   const [selectedPeriod, setSelectedPeriod] = useState<PlanPeriod>("1month");
+  const [selectedPlan, setSelectedPlan] = useState<PlanType>("professional");
   const t = useTranslations("subscriptionPlans");
 
   const pricing: PricingStructure = {
@@ -104,11 +105,12 @@ export default function SubscriptionPlans() {
               {plans.map((plan) => (
                 <div
                   key={plan.name}
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center cursor-pointer"
+                  onClick={() => setSelectedPlan(plan.planType)}
                 >
                   <div
-                    className={`rounded-4xl shadow-lg w-full max-w-sm p-4 pt-14 ${
-                      plan.isHighlighted
+                    className={`rounded-4xl shadow-lg w-full max-w-sm p-4 pt-14 transition-all ${
+                      selectedPlan === plan.planType
                         ? "bg-gradient-to-bl from-[#D180F9] to-[#FF9D00]"
                         : "bg-white"
                     }`}
@@ -116,7 +118,9 @@ export default function SubscriptionPlans() {
                     <div className="flex flex-col items-center">
                       <h3
                         className={`text-2xl font-bold mb-4 ${
-                          plan.isHighlighted ? "text-white" : "text-[#3D3D3D]"
+                          selectedPlan === plan.planType
+                            ? "text-white"
+                            : "text-[#3D3D3D]"
                         }`}
                       >
                         {plan.name}
@@ -124,7 +128,9 @@ export default function SubscriptionPlans() {
                       <div className="mb-4">
                         <span
                           className={`text-5xl font-bold ${
-                            plan.isHighlighted ? "text-white" : "text-[#3D3D3D]"
+                            selectedPlan === plan.planType
+                              ? "text-white"
+                              : "text-[#3D3D3D]"
                           }`}
                         >
                           {pricing[plan.planType][selectedPeriod].price}
@@ -132,7 +138,7 @@ export default function SubscriptionPlans() {
                       </div>
                       <p
                         className={`mb-6 text-sm ${
-                          plan.isHighlighted
+                          selectedPlan === plan.planType
                             ? "text-white/90"
                             : "text-[#3D3D3D]"
                         }`}
@@ -142,7 +148,7 @@ export default function SubscriptionPlans() {
                     </div>
                     <div
                       className={`rounded-2xl px-10 py-6  ${
-                        plan.isHighlighted
+                        selectedPlan === plan.planType
                           ? "bg-white/40"
                           : "bg-[#F8F8F0]"
                       }`}
@@ -152,14 +158,14 @@ export default function SubscriptionPlans() {
                           <li
                             key={index}
                             className={`flex items-start text-sm ${
-                              plan.isHighlighted
+                              selectedPlan === plan.planType
                                 ? "text-black"
                                 : "text-[#807F7A]"
                             }`}
                           >
                             <span
                               className={`w-2 h-2 rounded-full me-3 mt-2 flex-shrink-0 ${
-                                plan.isHighlighted
+                                selectedPlan === plan.planType
                                   ? "bg-black"
                                   : "bg-[#807F7A]"
                               }`}
@@ -181,8 +187,11 @@ export default function SubscriptionPlans() {
             </div>
         <div className="flex  items-center justify-center">
         <button
-            onClick={() => setSelectedPeriod("1month")}
-            className={`px-8 py-3 rounded-full w-[150px] mt-10 h-[50px] text-center text-sm  transition-all bg-[#FF9D00]  text-white shadow-lg}`}
+            onClick={() => {
+              const url = `https://customer.arzfy.com/auth/login?plan=${selectedPlan}&period=${selectedPeriod}`;
+              window.location.href = url;
+            }}
+            className="px-8 py-3 rounded-full w-[150px] mt-10 h-[50px] text-center text-sm transition-all text-white shadow-lg bg-[#FF9D00] hover:opacity-90 cursor-pointer"
           >
           {t("selectPlan")}
           </button>          

@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <LanguageSwitcher />
           <Link
-            href="#get-started"
+            href="https://customer.arzfy.com/auth/login"
             className="rounded-full text-center bg-[#0EAA9A] hover:bg-teal-500 text-white w-[120px] h-[36px] flex items-center justify-center"
           >
             {t("login")}

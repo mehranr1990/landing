@@ -53,16 +53,16 @@ export default function LanguageSwitcher() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-2 py-1 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium transition-colors text-sm min-w-[10px] justify-between"
+        className="flex items-center gap-2 hover:bg-gray-300 cursor-pointer px-2 py-1 rounded-full text-sm min-w-[10px] justify-between"
         aria-label="Switch language"
         aria-expanded={isOpen}
       >
         <span className="flex items-center gap-2">
           <Image
-          src="/icons/language.png"
+          src="/icons/world.png"
           alt="Mission Icon"
-          width={30}
-          height={30}></Image>
+          width={20}
+          height={20}></Image>
         </span>
       
       </button>
