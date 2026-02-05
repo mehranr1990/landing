@@ -14,6 +14,20 @@ interface LanguageOption {
 const languages: LanguageOption[] = [
   { code: "en", name: "English", flag: "🇺🇸" },
   { code: "fa", name: "فارسی", flag: "🇮🇷" },
+  { code: "af", name: "دری", flag: "AF" },
+  { code: "ar", name: "العربية", flag: "🇸🇦" },
+  { code: "de", name: "Deutsch", flag: "🇩🇪" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
+  { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
+  { code: "ky", name: "Кыргызча", flag: "🇰🇬" },
+  { code: "ps", name: "پښتو", flag: "🇦🇫" },
+  { code: "pt", name: "Português", flag: "🇵🇹" },
+  { code: "ru", name: "Русский", flag: "🇷🇺" },
+  { code: "tg", name: "Тоҷикӣ", flag: "🇹🇯" },
+  { code: "tr", name: "Türkçe", flag: "🇹🇷" },
+  { code: "uz", name: "Oʻzbek", flag: "🇺🇿" },
+  { code: "zh", name: "中文", flag: "🇨🇳" },
 ];
 
 export default function LanguageSwitcher() {
@@ -68,7 +82,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full mt-2 right-0 w-full bg-white rounded-lg shadow-lg border border-gray-200 min-w-[150px] overflow-hidden z-50">
+        <div className="absolute top-full mt-2 right-0 w-full bg-white rounded-lg shadow-lg border border-gray-200 min-w-[150px] max-h-64 overflow-y-auto z-50">
           {languages.map((language) => (
             <button
               key={language.code}

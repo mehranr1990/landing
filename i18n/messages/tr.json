@@ -1,0 +1,344 @@
+{
+    "common": {
+      "home": "Ana Sayfa",
+      "pricing": "Fiyatlandırma",
+      "services": "Yardım Merkezi",
+      "features": "Özellikler",
+      "about": "Hakkımızda",
+      "faq": "SSS",
+      "blog": "Blog",
+      "licensing": "Lisanslama",
+      "login": "Giriş Yap",
+      "signUp": "Kayıt Ol",
+      "getStarted": "Hemen Başla",
+      "watchDemo": "Demoyu İzle",
+      "selectPlan": "Plan Seç",
+      "contactUs": "Bize Ulaşın",
+      "send": "Gönder",
+      "search": "Ara...",
+      "learnMore": "Gizlilik Politikası",
+      "privacyPolicy": "Hizmet Şartları",
+      "termsOfUse": "Güvenlik",
+      "allRightsReserved": "Tüm hakları saklıdır",
+      "downloadApp": "Uygulamayı İndir"
+    },
+    "navbar": {
+      "home": "Ana Sayfa",
+      "pricing": "Fiyatlandırma",
+      "services": "Sistem Durumu",
+      "about": "Hakkımızda",
+      "faq": "SSS",
+      "blog": "Blog",
+      "licensing": "Lisanslama",
+      "login": "Başlayın",
+      "signUp": "Kayıt Ol"
+    },
+    "hero": {
+      "title": "Kripto ve Fiat Borsaları için En Üst Düzey Muhasebe OS’i",
+      "subtitle": "Varlıkları yönetin, gerçek zamanlı Kâr/Zarar (P&L) takibi yapın ve günlük operasyonları tek bir güvenli platformda sadeleştirin. Muhasebeciler için tasarlandı, borsa sahipleri için geliştirildi.",
+      "getStarted": "Demo Talep Et",
+      "watchDemo": "Nasıl Çalıştığını Gör",
+      "uptimeTitle": "%99,99’a Varan Çalışma Süresi",
+      "importTime": "Muhasebe verilerini 5 dakikadan kısa sürede içe aktarın.",
+      "years": "Desteklenen Varlıklar",
+      "uptime": "Kripto, Fiat, Altın ve Petrol",
+      "realUsers": "Muhasebe Hataları",
+      "trustUs": "Otomatik Çift Kayıt (Çift Taraflı) Sistem",
+      "min": "5 Dak",
+      "hundred": "100+",
+      "zero": "Sıfır",
+      "days": "Geçiş Süresi",
+      "noIncidents": "Hızlı ve Güvenli Veri Aktarımı"
+    },
+    "keyFeatures": {
+      "title": "Öne Çıkan Özellikler",
+      "secureTrading": "Sorunsuz Geçiş",
+      "secureTradingDesc": "4 adımlı akıllı içe aktarma sihirbazımızla Arzfy’a dakikalar içinde geçin. Veri kaybı olmadan.",
+      "fastProcessing": "Çok Varlıklı Motor",
+      "fastProcessingDesc": "Kripto, Fiat, Altın ve Petrol operasyonlarını tek bir birleşik muhasebe panelinde yönetin.",
+      "scalableSystem": "Rol Bazlı Güvenlik",
+      "scalableSystemDesc": "Hassas verileri korumak için Sahipler, Muhasebeciler ve Kasiyerler için net erişim seviyeleri tanımlayın.",
+      "support24": "Gerçek Zamanlı Kâr/Zarar (P&L)",
+      "support24Desc": "Her işlem için kâr ve zarar raporlarını anında görüntüleyin; varlık türüne ve şubeye göre ayrıştırılmış şekilde."
+    },
+    "subscriptionPlans": {
+      "title": "Her Borsa için Şeffaf Fiyatlandırma",
+      "subtitle": "Hacminize uygun planı seçin. Gizli ücret yok. İstediğiniz zaman yükseltin.",
+      "oneMonth": "1 Ay",
+      "threeMonth": "3 Ay",
+      "oneYear": "1 Yıl",
+      "perMonth": "aylık",
+      "perThreeMonths": "3 ayda bir",
+      "perYear": "yıllık",
+      "selectPlan": "Plan Seç",
+      "economic": {
+        "name": "Başlangıç",
+        "features": [
+          "1 kullanıcı (arttırılabilir)",
+          "150 karşı taraf hesabı",
+          "Temel raporlar",
+          "Standart Destek",
+          "Her ek kullanıcı için +59$"
+        ]
+      },
+      "professional": {
+        "name": "PROFESYONEL",
+        "features": [
+          "3 kullanıcı (arttırılabilir)",
+          "Sınırsız karşı taraf",
+          "Temel + Gelişmiş raporlar",
+          "Öncelikli Ticket Desteği",
+          "Her ek kullanıcı için +59$"
+        ]
+      },
+      "superGold": {
+        "name": "Kurumsal",
+        "features": [
+          "Sınırsız kullanıcı",
+          "Sınırsız karşı taraf",
+          "Tüm raporlar + Analiz araçları",
+          "Telefon + Ticket desteği",
+          "Her ek kullanıcı için +59$"
+        ]
+      }
+    },
+    "testimonials": {
+      "title": "Arzfy Kimler İçin?",
+      "testimonial1": {
+        "quote": "Borsanızı güçlü bir finansal temel ile başlatın. Standart muhasebe rollerini kurun ve hazır yapılandırmalarımızla anında operasyona başlayın.",
+        "name": "Kripto Startupları İçin"
+      },
+      "testimonial2": {
+        "quote": "Altın, petrol ve fiat havalelerini içeren karmaşık operasyonları; banka seviyesinde güvenlik ve büyük ekipler için rol bazlı erişim kontrolü ile yönetin.",
+        "name": "Kurumsal Borsalar İçin"
+      }
+    },
+    "downloadApp": {
+      "title": "Borsanızı Her Yerden Yönetin",
+      "description": "Gerçek zamanlı kârı takip edin, destek ticket’larını yönetin ve kullanıcı aktivitelerini doğrudan telefonunuzdan izleyin. iOS ve Android için mevcut.",
+      "downloadApp": "Uygulamayı İndir"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "question": "Arzfy yalnızca kripto borsaları için mi?",
+          "answer": "Hayır. Arzfy çok varlıklı bir muhasebe platformudur. Fiat (Kasa/Banka), Altın, Petrol ve Kripto para operasyonlarını tek bir birleşik panelde tamamen destekler."
+        },
+        {
+          "question": "Excel’den veya başka bir yazılımdan verilerimi taşımak ne kadar zor?",
+          "answer": "5 dakikadan kısa sürer. Akıllı 4 Adımlı Geçiş Sihirbazımız, kullanıcı verilerinizi ve finansal kayıtlarınızı veri kaybı olmadan güvenle içe aktarmanızı sağlar."
+        },
+        {
+          "question": "Çalışanlarım için farklı erişim seviyeleri tanımlayabilir miyim?",
+          "answer": "Evet. Arzfy gelişmiş Rol Bazlı Erişim Kontrolü (RBAC) sunar. Sahipler, Muhasebeciler, Kasiyerler ve Şube Yöneticileri için özel yetkiler tanımlayabilirsiniz."
+        },
+        {
+          "question": "Finansal verilerim güvenli mi?",
+          "answer": "Güvenlik en büyük önceliğimizdir. Banka seviyesinde şifreleme, otomatik günlük yedekleme ve sıkı gizlilik protokolleri kullanarak kayıtlarınızı güvenli ve gizli tutarız."
+        },
+        {
+          "question": "Bilgisayarıma yazılım yüklemem gerekiyor mu?",
+          "answer": "Hayır. Arzfy bulut tabanlı bir platformdur. Muhasebe panelinize dünyanın her yerinden, herhangi bir cihazdan güvenle erişebilirsiniz."
+        }
+      ]
+    },
+    "serverUptime": {
+      "title": "Banka Seviyesinde Altyapı",
+      "subtitle": "Yüksek erişilebilirlik mimarimizle %99,99 çalışma süresini garanti ediyoruz.",
+      "subtitle1": "Borsanız hiç uyumaz, biz de uyumayız.",
+      "daysAgo": "60 gün önce",
+      "today": "Bugün"
+    },
+    "footer": {
+      "quickLinks": "Hızlı Bağlantılar",
+      "resources": "Kaynaklar",
+      "followUs": "Bizi Takip Edin",
+      "description": "Arzfy, modern borsalar için tasarlanmış lider hepsi-bir-arada muhasebe platformudur. İşletmelerin Kripto, Fiat ve Altın varlıklarını banka seviyesinde güvenlik ve gerçek zamanlı finansal içgörülerle yönetmesini sağlar.",
+      "copyright": "© 2026 Arzfy Inc. Tüm hakları saklıdır."
+    },
+    "pricing": {
+      "hero": {
+        "title": "Size Uygun Planı Seçin",
+        "subtitle": "İş ihtiyaçlarınız için doğru çözümü bulun"
+      },
+      "faq": {
+        "title": "Fiyatlandırma SSS",
+        "items": [
+          {
+            "question": "Planımı yükseltebilir veya düşürebilir miyim?",
+            "answer": "Kesinlikle. Borsanız büyüdükçe planınızı ölçeklendirebilir veya panelinizden anında daha fazla kullanıcı lisansı ekleyebilirsiniz."
+          },
+          {
+            "question": "Ödemeyi kaçırırsam ne olur?",
+            "answer": "Operasyonlarınızın kesintiye uğramaması için 7 günlük bir ek süre sağlıyoruz. Sonrasında erişim 'Salt Okunur' moduyla sınırlandırılır."
+          },
+          {
+            "question": "Ücretsiz deneme sunuyor musunuz?",
+            "answer": "Evet, 'Başlangıç' planı Arzfy’ın gücünü risksiz deneyimlemeniz için 14 günlük ücretsiz deneme içerir."
+          }
+        ]
+      },
+      "featureComparison": {
+        "title": "Özellik Karşılaştırması",
+        "feature": "Özellik",
+        "economic": "Ekonomik",
+        "popular": "Popüler",
+        "superGold": "Super Gold",
+        "numberOfUsers": "Kullanıcı Sayısı",
+        "counterparty": "Karşı Taraf",
+        "basicReports": "Temel Raporlar",
+        "advancedReports": "Gelişmiş Raporlar",
+        "financialAnalytics": "Finansal Analiz",
+        "support": "Destek",
+        "available": "Mevcut",
+        "ticket": "Ticket",
+        "ticketCall": "Ticket/Arama",
+        "exclusive": "Özel",
+        "unlimited": "Sınırsız"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "Dijital Borsaların Geleceğini Güçlendiriyoruz",
+        "subtitle": "Geleneksel finans ile kripto ekonomisi arasındaki köprüyü akıllı muhasebe çözümleriyle kuruyoruz."
+      },
+      "ourStory": {
+        "title": "Hikayemiz",
+        "p1": "Arzfy basit bir farkındalıkla doğdu: Geleneksel muhasebe yazılımları, kripto para borsalarının hızına ve karmaşıklığına ayak uyduramıyordu.",
+        "p2": "Fintech uzmanları ve yazılım mühendislerinden oluşan bir ekip tarafından kurulan Arzfy, iki dili de konuşan bir platform olarak tasarlandı: çift kayıtlı muhasebenin hassasiyeti ve blockchain’in dinamizmi.",
+        "p3": "Bugün Arzfy, borsa sahiplerinin en kritik ihtiyaçlarını çözmeye odaklı bağımsız ve yenilikçi bir teknoloji şirketidir: otomasyon, doğruluk ve güvenlik. Biz sadece bir yazılım sağlayıcı değiliz; işinizin finansal omurgasıyız."
+      },
+      "stats": {
+        "accuracy": "%100 Doğruluk",
+        "availability": "7/24 Sistem Kullanılabilirliği",
+        "support": "Çok Varlıklı Destek",
+        "security": "Banka Seviyesinde Güvenlik"
+      },
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Güvenli, \"Hepsi Bir Arada\" bir platform sunarak borsalardaki finansal karmaşayı ortadan kaldırmak; sıfır muhasebe hatası ve sorunsuz varlık yönetimi sağlamak."
+      },
+      "vision": {
+        "title": "Vizyonumuz",
+        "description": "Orta Doğu ve ötesindeki borsalar tarafından güvenilen, dijital finans işletmeleri için küresel standart işletim sistemi olmak."
+      },
+      "contact": {
+        "title": "İletişime Geçin",
+        "subtitle": "Sorularınız mı var? Sizden haber almak isteriz.",
+        "email": "E-posta:",
+        "phone": "Telefon:",
+        "address": "Adres:",
+        "namePlaceholder": "Ad",
+        "emailPlaceholder": "E-posta",
+        "messagePlaceholder": "Mesajınızı yazın...",
+        "contactUs": "Bize Ulaşın"
+      }
+    },
+    "licensing": {
+      "title": "Kurumsal Uyum & Güvenlik",
+      "subtitle": "Şeffaf şekilde faaliyet gösteriyor, küresel finans teknolojisi standartlarına uyuyoruz.",
+      "companyInfo": {
+        "title": "Şirket Bilgileri",
+        "description": "Arzfy, dijital varlık borsalarını kurumsal seviyede muhasebe çözümleriyle güçlendirmeye adanmış küresel bir finans teknolojisi sağlayıcısıdır. Platformumuz, müşteriler için en yüksek veri güvenliği, gizlilik ve operasyonel güvenilirliği garanti etmek üzere uluslararası sektör standartları ve en iyi uygulamalar üzerine inşa edilmiştir.",
+        "companyname": "Şirket Adı: Arzfy Technology Solutions",
+        "registration": "Kayıt Durumu: Aktif / Limited Şirket (LLC)",
+        "headquarters": "Merkez: Türkiye",
+        "established": "Kuruluş: 2024:"
+      }
+    },
+    "securityDataPrivacy": {
+      "title": "Güvenlik & Veri Gizliliği",
+      "description": "Gelişmiş şifreleme ve küresel gizlilik standartlarıyla finansal operasyonların güvenliğini önceliklendiriyoruz.",
+      "sslEncryption": {
+        "title": "SSL/TLS Şifreleme",
+        "description": "Tüm veri iletimi 256-bit SSL şifrelemesiyle korunur"
+      },
+      "gdprCompliant": {
+        "title": "GDPR Uyumlu",
+        "description": "Kullanıcı gizliliğine saygı göstermek için küresel veri koruma düzenlemelerine uyuyoruz"
+      }
+    },
+    "contactSupport": {
+      "title": "Hâlâ sorularınız mı var?",
+      "subtitle": "Destek ekibimizle iletişime geçin",
+      "messagePlaceholder": "Mesajınızı yazın...",
+      "send": "Gönder"
+    },
+    "faqPage": {
+      "title": "Sık Sorulan Sorular",
+      "subtitle": "Arzfy hakkında sık sorulan soruların yanıtlarını bulun",
+      "noResults": "Aramanızla eşleşen soru bulunamadı.",
+      "categories": {
+        "general": "Genel",
+        "pricing": "Fiyatlandırma",
+        "technical": "Teknik",
+        "account": "Hesap",
+        "security": "Güvenlik",
+        "support": "Destek"
+      },
+      "items": [
+        {
+          "question": "Arzfy ile nasıl başlayabilirim?",
+          "answer": "Arzfy ile başlamak çok kolay. Önce e-posta adresinizle kayıt olarak bir hesap oluşturun. Ardından hesap güvenliğiniz için doğrulama sürecini tamamlayın. Doğrulandıktan sonra özellikleri keşfedebilir ve platformu kullanmaya başlayabilirsiniz.",
+          "category": "Genel"
+        },
+        {
+          "question": "Sistem gereksinimleri nelerdir?",
+          "answer": "Arzfy çoğu modern cihazda çalışır. Masaüstü için Windows 10 veya üzeri, macOS 10.14 veya üzeri ya da modern bir Linux dağıtımı gerekir. Mobil için iOS 12 veya üzeri ve Android 8.0 veya üzeri desteklenir. En iyi deneyim için stabil bir internet bağlantısı önerilir.",
+          "category": "Teknik"
+        },
+        {
+          "question": "Başka bir borsa platformundan geçiş yapabilir miyim?",
+          "answer": "Evet, diğer borsa platformlarından geçiş yapabilirsiniz. İşlem geçmişinizi ve hesap verilerinizi aktarmanıza yardımcı olmak için geçiş araçları ve destek sunuyoruz. Geçiş sürecinde yardım için destek ekibimizle iletişime geçin.",
+          "category": "Hesap"
+        },
+        {
+          "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+          "answer": "Kredi kartları, banka kartları, banka havalesi ve popüler kripto paralar dahil çeşitli ödeme yöntemlerini kabul ediyoruz. Tüm işlemler şifrelenmiş ödeme altyapımız üzerinden güvenle işlenir. Bölgenizdeki uygun ödeme seçenekleri için lütfen ödeme yöntemleri sayfamızı kontrol edin.",
+          "category": "Fiyatlandırma"
+        },
+        {
+          "question": "Ücretsiz deneme var mı?",
+          "answer": "Evet, yeni kullanıcılar için ücretsiz deneme süresi sunuyoruz. Deneme boyunca tüm özellikleri keşfedebilir ve platformu deneyimleyebilirsiniz. Deneme süresi genellikle 14 gündür.",
+          "category": "Fiyatlandırma"
+        },
+        {
+          "question": "Arzfy ne kadar güvenli?",
+          "answer": "Güvenlik en büyük önceliğimizdir. Verilerinizi ve fonlarınızı korumak için sektör lideri şifreleme, iki faktörlü kimlik doğrulama ve düzenli güvenlik denetimleri kullanıyoruz. Tüm işlemler 7/24 izlenir ve bilgilerinizin güvende kalması için sıkı uyumluluk standartlarını takip ederiz.",
+          "category": "Güvenlik"
+        },
+        {
+          "question": "Planımı yükseltebilir veya düşürebilir miyim?",
+          "answer": "Kesinlikle! Abonelik planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz. Değişiklikler bir sonraki faturalandırma döneminde yansır. Yükseltme yaparsanız yeni özelliklere hemen erişirsiniz; düşürme yaparsanız değişiklikler bir sonraki dönem başında geçerli olur.",
+          "category": "Fiyatlandırma"
+        },
+        {
+          "question": "Ne tür destek sağlıyorsunuz?",
+          "answer": "Birden fazla kanal üzerinden kapsamlı destek sunuyoruz. Destek ekibimiz 7/24 canlı sohbet, e-posta ve telefon üzerinden ulaşılabilir. Ayrıca dokümantasyon, video eğitimleri ve bilgi bankası sağlıyoruz.",
+          "category": "Destek"
+        },
+        {
+          "question": "Şifremi nasıl sıfırlarım?",
+          "answer": "Şifrenizi sıfırlamak için giriş sayfasındaki “Şifremi Unuttum” bağlantısına tıklayın. E-posta adresinizi girin; size bir şifre sıfırlama bağlantısı göndereceğiz. E-postadaki talimatları izleyerek yeni bir şifre oluşturun.",
+          "category": "Hesap"
+        },
+        {
+          "question": "İki faktörlü kimlik doğrulama nedir?",
+          "answer": "İki faktörlü kimlik doğrulama (2FA), hesabınıza ek bir güvenlik katmanı ekler. Etkinleştirildiğinde giriş yapmak için şifrenize ek olarak mobil cihazınızdaki doğrulama kodunu da girmeniz gerekir. Yetkisiz erişime karşı 2FA’yı etkinleştirmenizi şiddetle öneririz.",
+          "category": "Güvenlik"
+        },
+        {
+          "question": "Müşteri desteğine nasıl ulaşabilirim?",
+          "answer": "Müşteri destek ekibimize birden fazla kanaldan ulaşabilirsiniz: canlı sohbet (web sitemizde 7/24), support@arzfy.com e-posta adresi veya +1 (555) 123-4567 telefon numarası. E-postalara genellikle 24 saat içinde, canlı sohbette ise anında yanıt veririz.",
+          "category": "Destek"
+        },
+        {
+          "question": "İşlem ücretleri nedir?",
+          "answer": "İşlem ücretleri abonelik planınıza ve işlem türüne göre değişir. Genellikle işlem başına %0,1 ile %0,5 arasındadır. Premium planlar daha düşük ücretler sunar. Detaylı bilgi için fiyatlandırma sayfamızı inceleyin veya destek ekibimizle iletişime geçin.",
+          "category": "Fiyatlandırma"
+        }
+      ]
+    }
+  }
+  

@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div dir="ltr" className="relative z-10 px-6 md:px-16 lg:px-24 py-16 md:py-30" style={{ backgroundImage: 'url(/background/hero.jpg)', backgroundSize: 'cover', }}>
 
         <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-start gap-12">
-          <div className="max-w-4xl ">
+          <div className="max-w-3xl ">
             {/* Text Section */}
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">

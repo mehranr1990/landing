@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { NextIntlClientProvider } from "next-intl";
-import { Locale } from "@/i18n/config";
+import { Locale, locales, isRtlLocale, defaultLocale } from "@/i18n/config";
 
 interface LanguageContextType {
   locale: Locale;
@@ -31,9 +31,13 @@ export function LanguageProvider({ children, initialLocale = "en", messages }: L
 
   useEffect(() => {
     const savedLocale = localStorage.getItem("locale") as Locale | null;
-    if (savedLocale && (savedLocale === "en" || savedLocale === "fa")) {
+    if (savedLocale && (locales as readonly string[]).includes(savedLocale)) {
       setLocaleState(savedLocale);
       loadMessages(savedLocale);
+      if (typeof document !== "undefined") {
+        document.documentElement.dir = isRtlLocale(savedLocale) ? "rtl" : "ltr";
+        document.documentElement.lang = savedLocale;
+      }
     }
   }, []);
 
@@ -48,13 +52,17 @@ export function LanguageProvider({ children, initialLocale = "en", messages }: L
 
   const setLocale = async (newLocale: Locale): Promise<void> => {
     if (newLocale === locale) return;
+    if (!(locales as readonly string[]).includes(newLocale)) {
+      console.warn(`Invalid locale: ${newLocale}. Falling back to ${defaultLocale}`);
+      return;
+    }
     localStorage.setItem("locale", newLocale);
     await loadMessages(newLocale);
     setLocaleState(newLocale);
     
     // Update HTML dir attribute for RTL support
     if (typeof document !== "undefined") {
-      document.documentElement.dir = newLocale === "fa" ? "rtl" : "ltr";
+      document.documentElement.dir = isRtlLocale(newLocale) ? "rtl" : "ltr";
       document.documentElement.lang = newLocale;
     }
   };

@@ -1,0 +1,344 @@
+{
+    "common": {
+      "home": "Início",
+      "pricing": "Preços",
+      "services": "Central de Ajuda",
+      "features": "Funcionalidades",
+      "about": "Sobre nós",
+      "faq": "Perguntas Frequentes",
+      "blog": "Blog",
+      "licensing": "Licenciamento",
+      "login": "Entrar",
+      "signUp": "Criar conta",
+      "getStarted": "Começar",
+      "watchDemo": "Ver Demo",
+      "selectPlan": "Selecionar Plano",
+      "contactUs": "Fale Conosco",
+      "send": "Enviar",
+      "search": "Pesquisar...",
+      "learnMore": "Política de Privacidade",
+      "privacyPolicy": "Termos de Serviço",
+      "termsOfUse": "Segurança",
+      "allRightsReserved": "Todos os direitos reservados",
+      "downloadApp": "Baixar App"
+    },
+    "navbar": {
+      "home": "Início",
+      "pricing": "Preços",
+      "services": "Status do Sistema",
+      "about": "Sobre nós",
+      "faq": "Perguntas Frequentes",
+      "blog": "Blog",
+      "licensing": "Licenciamento",
+      "login": "Começar",
+      "signUp": "Criar conta"
+    },
+    "hero": {
+      "title": "O Sistema Operacional Contábil Definitivo para Exchanges de Cripto e Fiat",
+      "subtitle": "Gerencie ativos, acompanhe P&L em tempo real e otimize as operações diárias em uma única plataforma segura. Feito para contadores, desenvolvido para donos de exchange.",
+      "getStarted": "Solicitar Demo",
+      "watchDemo": "Veja Como Funciona",
+      "uptimeTitle": "Até 99,99% de Disponibilidade",
+      "importTime": "Importe dados contábeis em menos de 5 minutos.",
+      "years": "Ativos Suportados",
+      "uptime": "Cripto, Fiat, Ouro e Petróleo",
+      "realUsers": "Erros Contábeis",
+      "trustUs": "Sistema de Dupla Partida Automatizado",
+      "min": "5 min",
+      "hundred": "100+",
+      "zero": "Zero",
+      "days": "Tempo de Migração",
+      "noIncidents": "Importação de Dados Rápida e Segura"
+    },
+    "keyFeatures": {
+      "title": "Principais Funcionalidades",
+      "secureTrading": "Migração Sem Complicações",
+      "secureTradingDesc": "Migre para a Arzfy em minutos com nosso assistente inteligente de importação em 4 etapas. Sem perda de dados garantida.",
+      "fastProcessing": "Motor Multiativos",
+      "fastProcessingDesc": "Gerencie operações de Cripto, Fiat, Ouro e Petróleo em um único painel contábil unificado.",
+      "scalableSystem": "Segurança Baseada em Funções",
+      "scalableSystemDesc": "Defina níveis de acesso precisos para Proprietários, Contadores e Caixas para proteger dados sensíveis.",
+      "support24": "P&L em Tempo Real",
+      "support24Desc": "Visualize instantaneamente relatórios de lucros e perdas para cada transação, separados por tipo de ativo e filial."
+    },
+    "subscriptionPlans": {
+      "title": "Preços Transparentes para Cada Exchange",
+      "subtitle": "Escolha o plano que se encaixa no seu volume. Sem taxas ocultas. Faça upgrade a qualquer momento.",
+      "oneMonth": "1 Mês",
+      "threeMonth": "3 Meses",
+      "oneYear": "1 Ano",
+      "perMonth": "por mês",
+      "perThreeMonths": "por 3 meses",
+      "perYear": "por ano",
+      "selectPlan": "Escolher Plano",
+      "economic": {
+        "name": "Inicial",
+        "features": [
+          "1 usuário (expansível)",
+          "150 contas de contraparte",
+          "Relatórios básicos",
+          "Suporte padrão",
+          "+US$59 por usuário adicional"
+        ]
+      },
+      "professional": {
+        "name": "PROFISSIONAL",
+        "features": [
+          "3 usuários (expansível)",
+          "Contrapartes ilimitadas",
+          "Relatórios básicos + avançados",
+          "Suporte prioritário via ticket",
+          "+US$59 por usuário adicional"
+        ]
+      },
+      "superGold": {
+        "name": "Enterprise",
+        "features": [
+          "Usuários ilimitados",
+          "Contrapartes ilimitadas",
+          "Todos os relatórios + ferramentas de análise",
+          "Suporte por telefone + ticket",
+          "+US$59 por usuário adicional"
+        ]
+      }
+    },
+    "testimonials": {
+      "title": "Para Quem é a Arzfy?",
+      "testimonial1": {
+        "quote": "Lance sua exchange com uma base financeira sólida. Configure funções contábeis padrão e comece a operar imediatamente com nossas configurações predefinidas.",
+        "name": "Para Startups de Cripto"
+      },
+      "testimonial2": {
+        "quote": "Gerencie operações complexas envolvendo Ouro, Petróleo e remessas Fiat com segurança de nível bancário e controle de acesso baseado em funções para equipes grandes.",
+        "name": "Para Exchanges Enterprise"
+      }
+    },
+    "downloadApp": {
+      "title": "Controle Sua Exchange de Qualquer Lugar",
+      "description": "Acompanhe lucros em tempo real, gerencie tickets de suporte e monitore a atividade dos usuários diretamente do seu celular. Disponível para iOS e Android.",
+      "downloadApp": "Baixar App"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "items": [
+        {
+          "question": "A Arzfy é apenas para exchanges de cripto?",
+          "answer": "Não. A Arzfy é uma plataforma contábil multiativos. Oferecemos suporte completo para operações Fiat (Caixa/Banco), Ouro, Petróleo e Criptomoedas em um único painel unificado."
+        },
+        {
+          "question": "Quão difícil é migrar meus dados do Excel ou de outro software?",
+          "answer": "Leva menos de 5 minutos. Nosso Assistente Inteligente de Migração em 4 Etapas permite importar seus dados de usuários e registros financeiros com segurança, sem qualquer perda de dados."
+        },
+        {
+          "question": "Posso definir diferentes níveis de acesso para meus funcionários?",
+          "answer": "Sim. A Arzfy oferece Controle de Acesso Baseado em Funções (RBAC) avançado. Você pode definir permissões específicas para Proprietários, Contadores, Caixas e Gerentes de Filial."
+        },
+        {
+          "question": "Meus dados financeiros estão seguros?",
+          "answer": "Segurança é nossa prioridade máxima. Usamos criptografia de nível bancário, backups diários automatizados e protocolos rígidos de privacidade para garantir que seus registros financeiros permaneçam seguros e confidenciais."
+        },
+        {
+          "question": "Preciso instalar algum software no meu computador?",
+          "answer": "Não, a Arzfy é uma plataforma em nuvem. Você pode acessar seu painel contábil com segurança de qualquer dispositivo, em qualquer lugar do mundo."
+        }
+      ]
+    },
+    "serverUptime": {
+      "title": "Infraestrutura de Nível Bancário",
+      "subtitle": "Garantimos 99,99% de uptime com nossa arquitetura de alta disponibilidade.",
+      "subtitle1": "Sua exchange nunca dorme — e nós também não.",
+      "daysAgo": "há 60 dias",
+      "today": "Hoje"
+    },
+    "footer": {
+      "quickLinks": "Links Rápidos",
+      "resources": "Recursos",
+      "followUs": "Siga-nos",
+      "description": "A Arzfy é a principal plataforma contábil tudo-em-um projetada para exchanges modernas. Ajudamos empresas a gerenciar ativos Cripto, Fiat e Ouro com segurança de nível bancário e insights financeiros em tempo real.",
+      "copyright": "© 2026 Arzfy Inc. Todos os direitos reservados."
+    },
+    "pricing": {
+      "hero": {
+        "title": "Escolha o Plano Ideal",
+        "subtitle": "Encontre a solução certa para as necessidades do seu negócio"
+      },
+      "faq": {
+        "title": "Perguntas Frequentes sobre Preços",
+        "items": [
+          {
+            "question": "Posso fazer upgrade ou downgrade do meu plano?",
+            "answer": "Com certeza. Você pode ampliar seu plano à medida que sua exchange cresce ou adicionar mais licenças de usuário instantaneamente pelo painel."
+          },
+          {
+            "question": "O que acontece se eu atrasar um pagamento?",
+            "answer": "Oferecemos um período de carência de 7 dias para garantir que as operações da sua exchange não sejam interrompidas. Depois disso, o acesso será restrito ao modo \"Somente leitura\"."
+          },
+          {
+            "question": "Vocês oferecem um teste gratuito?",
+            "answer": "Sim, o plano \"Inicial\" inclui um teste gratuito de 14 dias para você experimentar o poder da Arzfy sem riscos."
+          }
+        ]
+      },
+      "featureComparison": {
+        "title": "Comparação de Funcionalidades",
+        "feature": "Funcionalidade",
+        "economic": "Econômico",
+        "popular": "Popular",
+        "superGold": "Super Gold",
+        "numberOfUsers": "Número de Usuários",
+        "counterparty": "Contraparte",
+        "basicReports": "Relatórios Básicos",
+        "advancedReports": "Relatórios Avançados",
+        "financialAnalytics": "Análises Financeiras",
+        "support": "Suporte",
+        "available": "Disponível",
+        "ticket": "Ticket",
+        "ticketCall": "Ticket/Ligação",
+        "exclusive": "Exclusivo",
+        "unlimited": "Ilimitado"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "Impulsionando o Futuro das Exchanges Digitais",
+        "subtitle": "Conectando as finanças tradicionais e a economia cripto com soluções contábeis inteligentes."
+      },
+      "ourStory": {
+        "title": "Nossa História",
+        "p1": "A Arzfy nasceu de uma percepção simples: softwares contábeis tradicionais não conseguiam acompanhar a velocidade e a complexidade das exchanges de criptomoedas.",
+        "p2": "Fundada por uma equipe de especialistas em fintech e engenheiros de software, nos propusemos a criar uma plataforma que fala as duas linguagens: a precisão da contabilidade de dupla partida e o dinamismo da tecnologia blockchain.",
+        "p3": "Hoje, a Arzfy é uma empresa de tecnologia independente e de ponta, dedicada a resolver os desafios mais críticos para donos de exchanges: automação, precisão e segurança. Não somos apenas um fornecedor de software; somos a espinha dorsal financeira do seu negócio."
+      },
+      "stats": {
+        "accuracy": "100% de Precisão",
+        "availability": "Disponibilidade do Sistema 24/7",
+        "support": "Suporte Multiativos",
+        "security": "Segurança de Nível Bancário"
+      },
+      "mission": {
+        "title": "Nossa Missão",
+        "description": "Eliminar o caos financeiro nas exchanges oferecendo uma plataforma segura \"tudo-em-um\" que garante zero erros contábeis e gestão de ativos sem complicações."
+      },
+      "vision": {
+        "title": "Nossa Visão",
+        "description": "Tornar-nos o sistema operacional padrão global para negócios de finanças digitais, com a confiança de exchanges no Oriente Médio e além."
+      },
+      "contact": {
+        "title": "Entre em Contato",
+        "subtitle": "Tem dúvidas? Adoraríamos ouvir você.",
+        "email": "E-mail:",
+        "phone": "Telefone:",
+        "address": "Endereço:",
+        "namePlaceholder": "Nome",
+        "emailPlaceholder": "E-mail",
+        "messagePlaceholder": "Escreva sua mensagem...",
+        "contactUs": "Fale Conosco"
+      }
+    },
+    "licensing": {
+      "title": "Conformidade Corporativa e Segurança",
+      "subtitle": "Operando com transparência e aderindo a padrões globais de tecnologia financeira.",
+      "companyInfo": {
+        "title": "Informações da Empresa",
+        "description": "A Arzfy é uma provedora global de tecnologia financeira dedicada a capacitar exchanges de ativos digitais com soluções contábeis de nível empresarial. Nossa plataforma é construída sobre padrões internacionais do setor e melhores práticas para garantir os mais altos níveis de segurança de dados, privacidade e confiabilidade operacional para clientes no mundo todo.",
+        "companyname": "Nome da Empresa: Arzfy Technology Solutions",
+        "registration": "Status de Registro: Ativa / Limited Liability Company (LLC)",
+        "headquarters": "Sede: Turquia",
+        "established": "Fundada: 2024:"
+      }
+    },
+    "securityDataPrivacy": {
+      "title": "Segurança e Privacidade de Dados",
+      "description": "Priorizamos a segurança das operações financeiras por meio de criptografia avançada e padrões globais de privacidade.",
+      "sslEncryption": {
+        "title": "Criptografia SSL/TLS",
+        "description": "Toda a transmissão de dados é protegida por criptografia SSL de 256 bits"
+      },
+      "gdprCompliant": {
+        "title": "Em Conformidade com o GDPR",
+        "description": "Seguimos regulamentações globais de proteção de dados para respeitar a privacidade do usuário"
+      }
+    },
+    "contactSupport": {
+      "title": "Ainda tem dúvidas?",
+      "subtitle": "Entre em contato com nossa equipe de suporte",
+      "messagePlaceholder": "Escreva sua mensagem...",
+      "send": "Enviar"
+    },
+    "faqPage": {
+      "title": "Perguntas Frequentes",
+      "subtitle": "Encontre respostas para perguntas comuns sobre a Arzfy",
+      "noResults": "Nenhuma pergunta encontrada para a sua busca.",
+      "categories": {
+        "general": "Geral",
+        "pricing": "Preços",
+        "technical": "Técnico",
+        "account": "Conta",
+        "security": "Segurança",
+        "support": "Suporte"
+      },
+      "items": [
+        {
+          "question": "Como começo a usar a Arzfy?",
+          "answer": "Começar na Arzfy é simples. Primeiro, crie uma conta cadastrando seu e-mail. Em seguida, conclua o processo de verificação para garantir a segurança da sua conta. Depois de verificado, você pode explorar nossos recursos e começar a operar na plataforma.",
+          "category": "Geral"
+        },
+        {
+          "question": "Quais são os requisitos do sistema?",
+          "answer": "A Arzfy funciona na maioria dos dispositivos modernos. Para desktop, você precisa do Windows 10 ou superior, macOS 10.14 ou superior, ou uma distribuição Linux moderna. Para mobile, são compatíveis iOS 12 ou superior e Android 8.0 ou superior. Recomenda-se uma conexão estável com a internet para a melhor experiência.",
+          "category": "Técnico"
+        },
+        {
+          "question": "Posso migrar de outra plataforma de exchange?",
+          "answer": "Sim, você pode migrar de outras plataformas de exchange. Fornecemos ferramentas de migração e suporte para ajudar a transferir seu histórico de negociações e dados da conta. Entre em contato com nossa equipe de suporte para assistência no processo de migração.",
+          "category": "Conta"
+        },
+        {
+          "question": "Quais métodos de pagamento vocês aceitam?",
+          "answer": "Aceitamos vários métodos de pagamento, incluindo cartões de crédito, cartões de débito, transferências bancárias e criptomoedas populares. Todas as transações são processadas com segurança por meio do nosso gateway de pagamento criptografado. Para opções disponíveis na sua região, consulte nossa página de métodos de pagamento.",
+          "category": "Preços"
+        },
+        {
+          "question": "Existe um teste gratuito disponível?",
+          "answer": "Sim, oferecemos um período de teste gratuito para novos usuários. Durante o teste, você pode explorar todos os recursos e conhecer a plataforma. O período de teste normalmente dura 14 dias, dando tempo suficiente para avaliar nossos serviços.",
+          "category": "Preços"
+        },
+        {
+          "question": "Quão segura é a Arzfy?",
+          "answer": "Segurança é nossa prioridade. Usamos criptografia líder do setor, autenticação de dois fatores e auditorias regulares de segurança para proteger seus dados e fundos. Todas as transações são monitoradas 24/7, e seguimos padrões rigorosos de conformidade para manter suas informações seguras.",
+          "category": "Segurança"
+        },
+        {
+          "question": "Posso fazer upgrade ou downgrade do meu plano?",
+          "answer": "Com certeza! Você pode fazer upgrade ou downgrade do seu plano de assinatura a qualquer momento. As mudanças serão refletidas no próximo ciclo de cobrança. Se fizer upgrade, você terá acesso imediato aos novos recursos. Se fizer downgrade, as mudanças entram em vigor no início do próximo período de cobrança.",
+          "category": "Preços"
+        },
+        {
+          "question": "Que tipo de suporte vocês oferecem?",
+          "answer": "Oferecemos suporte completo por múltiplos canais. Nossa equipe está disponível 24/7 via chat ao vivo, e-mail e telefone. Também fornecemos documentação extensa, tutoriais em vídeo e uma base de conhecimento para ajudar você a encontrar respostas rapidamente.",
+          "category": "Suporte"
+        },
+        {
+          "question": "Como redefino minha senha?",
+          "answer": "Para redefinir sua senha, clique em \"Esqueci minha senha\" na página de login. Informe seu e-mail e enviaremos um link de redefinição. Siga as instruções do e-mail para criar uma nova senha. Use uma senha forte e exclusiva para maior segurança.",
+          "category": "Conta"
+        },
+        {
+          "question": "O que é autenticação de dois fatores?",
+          "answer": "A autenticação de dois fatores (2FA) adiciona uma camada extra de segurança à sua conta. Quando habilitada, você precisará informar sua senha e um código de verificação do seu dispositivo móvel para entrar. Recomendamos fortemente ativar a 2FA para proteger sua conta contra acessos não autorizados.",
+          "category": "Segurança"
+        },
+        {
+          "question": "Como entro em contato com o suporte ao cliente?",
+          "answer": "Você pode falar com nossa equipe de suporte por vários canais: chat ao vivo (24/7 no nosso site), e-mail em support@arzfy.com ou telefone em +1 (555) 123-4567. Nossa equipe normalmente responde em até 24 horas por e-mail e imediatamente pelo chat ao vivo.",
+          "category": "Suporte"
+        },
+        {
+          "question": "Quais são as taxas de transação?",
+          "answer": "As taxas de transação variam conforme seu plano e o tipo de transação. Em geral, variam de 0,1% a 0,5% por transação. Planos premium oferecem taxas reduzidas. Para detalhes, consulte nossa página de preços ou fale com o suporte.",
+          "category": "Preços"
+        }
+      ]
+    }
+  }
+  

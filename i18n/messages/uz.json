@@ -1,0 +1,343 @@
+{
+    "common": {
+        "home": "Bosh sahifa",
+        "pricing": "Narxlar",
+        "services": "Yordam markazi",
+        "features": "Xususiyatlar",
+        "about": "Biz haqimizda",
+        "faq": "Ko‘p so‘raladigan savollar",
+        "blog": "Blog",
+        "licensing": "Litsenziyalash",
+        "login": "Kirish",
+        "signUp": "Ro‘yxatdan o‘tish",
+        "getStarted": "Boshlash",
+        "watchDemo": "Demo ko‘rish",
+        "selectPlan": "Rejani tanlash",
+        "contactUs": "Biz bilan bog‘laning",
+        "send": "Yuborish",
+        "search": "Qidirish...",
+        "learnMore": "Maxfiylik siyosati",
+        "privacyPolicy": "Xizmat ko‘rsatish shartlari",
+        "termsOfUse": "Xavfsizlik",
+        "allRightsReserved": "Barcha huquqlar himoyalangan",
+        "downloadApp": "Ilovani yuklab olish"
+    },
+    "navbar": {
+        "home": "Bosh sahifa",
+        "pricing": "Narxlar",
+        "services": "Tizim holati",
+        "about": "Biz haqimizda",
+        "faq": "Ko‘p so‘raladigan savollar",
+        "blog": "Blog",
+        "licensing": "Litsenziyalash",
+        "login": "Boshlash",
+        "signUp": "Ro‘yxatdan o‘tish"
+    },
+    "hero": {
+        "title": "Kripto va fiat birjalari uchun eng zo‘r Buxgalteriya OS",
+        "subtitle": "Aktivlarni boshqaring, real vaqtda P&L’ni kuzating va kundalik operatsiyalarni bitta xavfsiz platformada soddalashtiring. Buxgalterlar uchun yaratilgan, birja egalariga moslangan.",
+        "getStarted": "Demo so‘rash",
+        "watchDemo": "Qanday ishlashini ko‘ring",
+        "uptimeTitle": "99.99% gacha Uptime",
+        "importTime": "Buxgalteriya ma’lumotlarini 5 daqiqadan kam vaqtda import qiling.",
+        "years": "Qo‘llab-quvvatlanadigan aktivlar",
+        "uptime": "Kripto, Fiat, Oltin va Neft",
+        "realUsers": "Buxgalteriya xatolari",
+        "trustUs": "Avtomatlashtirilgan ikkiyoqlama yozuv tizimi",
+        "min": "5 daqiqa",
+        "hundred": "100+",
+        "zero": "Nol",
+        "days": "Migratsiya vaqti",
+        "noIncidents": "Tez va xavfsiz ma’lumot importi"
+    },
+    "keyFeatures": {
+        "title": "Asosiy xususiyatlar",
+        "secureTrading": "Uzluksiz migratsiya",
+        "secureTradingDesc": "4 bosqichli aqlli import ustasi yordamida bir necha daqiqada Arzfy’ga o‘ting. Ma’lumot yo‘qolmasligi kafolatlanadi.",
+        "fastProcessing": "Ko‘p-aktivli dvigatel",
+        "fastProcessingDesc": "Kripto, fiat, oltin va neft operatsiyalarini bitta yagona buxgalteriya panelida boshqaring.",
+        "scalableSystem": "Rollar bo‘yicha xavfsizlik",
+        "scalableSystemDesc": "Maxfiy ma’lumotlarni himoya qilish uchun Egalar, Buxgalterlar va Kassirlar uchun aniq kirish darajalarini belgilang.",
+        "support24": "Real vaqtda P&L",
+        "support24Desc": "Har bir tranzaksiya bo‘yicha foyda va zarar hisobotlarini darhol ko‘ring — aktiv turi va filial kesimida."
+    },
+    "subscriptionPlans": {
+        "title": "Har bir birja uchun shaffof narxlar",
+        "subtitle": "Hajmingizga mos rejani tanlang. Yashirin to‘lovlar yo‘q. Istalgan payt yangilang.",
+        "oneMonth": "1 oy",
+        "threeMonth": "3 oy",
+        "oneYear": "1 yil",
+        "perMonth": "oyiga",
+        "perThreeMonths": "har 3 oyda",
+        "perYear": "yiliga",
+        "selectPlan": "Rejani tanlash",
+        "economic": {
+            "name": "Starter",
+            "features": [
+                "1 foydalanuvchi (kengaytiriladi)",
+                "150 ta kontragent hisobi",
+                "Asosiy hisobotlar",
+                "Standart qo‘llab-quvvatlash",
+                "Har bir qo‘shimcha foydalanuvchi uchun +$59"
+            ]
+        },
+        "professional": {
+            "name": "PROFESSIONAL",
+            "features": [
+                "3 foydalanuvchi (kengaytiriladi)",
+                "Cheksiz kontragent",
+                "Asosiy + ilg‘or hisobotlar",
+                "Ustuvor Ticket qo‘llab-quvvatlash",
+                "Har bir qo‘shimcha foydalanuvchi uchun +$59"
+            ]
+        },
+        "superGold": {
+            "name": "Enterprise",
+            "features": [
+                "Cheksiz foydalanuvchi",
+                "Cheksiz kontragent",
+                "Barcha hisobotlar + tahlil vositalari",
+                "Telefon + Ticket qo‘llab-quvvatlash",
+                "Har bir qo‘shimcha foydalanuvchi uchun +$59"
+            ]
+        }
+    },
+    "testimonials": {
+        "title": "Arzfy kimlar uchun?",
+        "testimonial1": {
+            "quote": "Birjangizni mustahkam moliyaviy poydevor bilan ishga tushiring. Umumiy buxgalteriya rollarini sozlang va tayyor konfiguratsiyalarimiz bilan darhol savdoni boshlang.",
+            "name": "Kripto startaplar uchun"
+        },
+        "testimonial2": {
+            "quote": "Katta jamoalar uchun bank darajasidagi xavfsizlik va rollar bo‘yicha kirish nazorati bilan oltin, neft va fiat pul o‘tkazmalari kabi murakkab operatsiyalarni boshqaring.",
+            "name": "Korporativ birjalar uchun"
+        }
+    },
+    "downloadApp": {
+        "title": "Birjangizni istalgan joydan boshqaring",
+        "description": "Real vaqtda foydani kuzating, qo‘llab-quvvatlash ticketlarini boshqaring va foydalanuvchi faolligini telefoningizdan monitoring qiling. iOS va Android uchun mavjud.",
+        "downloadApp": "Ilovani yuklab olish"
+    },
+    "faq": {
+        "title": "Ko‘p so‘raladigan savollar",
+        "items": [
+            {
+                "question": "Arzfy faqat kripto birjalari uchunmi?",
+                "answer": "Yo‘q. Arzfy — ko‘p-aktivli buxgalteriya platformasi. Biz yagona panelda Fiat (naqd/bank), Oltin, Neft va Kriptovalyuta operatsiyalarini to‘liq qo‘llab-quvvatlaymiz."
+            },
+            {
+                "question": "Excel yoki boshqa dasturlardan ma’lumotlarni ko‘chirish qanchalik qiyin?",
+                "answer": "5 daqiqadan kam vaqt oladi. Aqlli 4 bosqichli Migratsiya ustamiz sizga foydalanuvchi ma’lumotlari va moliyaviy yozuvlarni hech qanday ma’lumot yo‘qotmasdan xavfsiz import qilish imkonini beradi."
+            },
+            {
+                "question": "Xodimlarim uchun turli kirish darajalarini belgilay olamanmi?",
+                "answer": "Ha. Arzfy’da ilg‘or Role-Based Access Control (RBAC) mavjud. Egalar, Buxgalterlar, Kassirlar va Filial menejerlari uchun aniq ruxsatlarni belgilashingiz mumkin."
+            },
+            {
+                "question": "Moliyaviy ma’lumotlarim xavfsizmi?",
+                "answer": "Xavfsizlik — bizning ustuvor yo‘nalishimiz. Biz bank darajasidagi shifrlash, avtomatik kundalik zaxira nusxalar va qat’iy maxfiylik protokollaridan foydalanib, moliyaviy yozuvlaringizni xavfsiz va maxfiy saqlaymiz."
+            },
+            {
+                "question": "Kompyuterimga dastur o‘rnatishim kerakmi?",
+                "answer": "Yo‘q, Arzfy — bulutga asoslangan platforma. Siz dunyoning istalgan joyidan, istalgan qurilmadan buxgalteriya panelingizga xavfsiz kira olasiz."
+            }
+        ]
+    },
+    "serverUptime": {
+        "title": "Bank darajasidagi infratuzilma",
+        "subtitle": "Yuqori mavjudlik arxitekturamiz bilan 99.99% Uptime’ni kafolatlaymiz.",
+        "subtitle1": "Birjangiz hech qachon uxlamaydi, biz ham.",
+        "daysAgo": "60 kun oldin",
+        "today": "Bugun"
+    },
+    "footer": {
+        "quickLinks": "Tezkor havolalar",
+        "resources": "Resurslar",
+        "followUs": "Bizni kuzating",
+        "description": "Arzfy — zamonaviy birjalar uchun yaratilgan yetakchi “hammasi bir joyda” buxgalteriya platformasi. Biz bizneslarga bank darajasidagi xavfsizlik va real vaqtdagi moliyaviy tahlillar bilan Kripto, Fiat va Oltin aktivlarini boshqarishda yordam beramiz.",
+        "copyright": "© 2026 Arzfy Inc. Barcha huquqlar himoyalangan."
+    },
+    "pricing": {
+        "hero": {
+            "title": "Mukammal rejangizni tanlang",
+            "subtitle": "Biznes ehtiyojlaringiz uchun to‘g‘ri yechimni toping"
+        },
+        "faq": {
+            "title": "Narxlar bo‘yicha FAQ",
+            "items": [
+                {
+                    "question": "Rejamni yangilash yoki pasaytirishim mumkinmi?",
+                    "answer": "Albatta. Birjangiz o‘sgani sari rejangizni kattalashtirishingiz yoki panelingizdan darhol qo‘shimcha foydalanuvchi litsenziyalarini qo‘shishingiz mumkin."
+                },
+                {
+                    "question": "Agar to‘lovni o‘tkazib yuborsam nima bo‘ladi?",
+                    "answer": "Birja operatsiyalaringiz uzilmasligi uchun 7 kunlik imtiyozli muddat beramiz. Shundan so‘ng, kirish ‘Read-Only’ (faqat ko‘rish) rejimiga cheklanadi."
+                },
+                {
+                    "question": "Bepul sinov (trial) bormi?",
+                    "answer": "Ha, ‘Starter’ rejasi 14 kunlik bepul sinov bilan keladi — Arzfy qudratini xavfsiz sinab ko‘rishingiz mumkin."
+                }
+            ]
+        },
+        "featureComparison": {
+            "title": "Xususiyatlar taqqoslanishi",
+            "feature": "Xususiyat",
+            "economic": "Economic",
+            "popular": "Popular",
+            "superGold": "Super Gold",
+            "numberOfUsers": "Foydalanuvchilar soni",
+            "counterparty": "Kontragent",
+            "basicReports": "Asosiy hisobotlar",
+            "advancedReports": "Ilg‘or hisobotlar",
+            "financialAnalytics": "Moliyaviy tahlil",
+            "support": "Qo‘llab-quvvatlash",
+            "available": "Mavjud",
+            "ticket": "Ticket",
+            "ticketCall": "Ticket/qo‘ng‘iroq",
+            "exclusive": "Eksklyuziv",
+            "unlimited": "Cheksiz"
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "Raqamli birjalar kelajagini kuchaytiramiz",
+            "subtitle": "Aqlli buxgalteriya yechimlari bilan an’anaviy moliya va kripto iqtisodiyoti o‘rtasidagi tafovutni bartaraf etamiz."
+        },
+        "ourStory": {
+            "title": "Bizning hikoyamiz",
+            "p1": "Arzfy oddiy tushunchadan tug‘ildi: an’anaviy buxgalteriya dasturlari kriptovalyuta birjalarining tezligi va murakkabligiga moslasha olmasdi.",
+            "p2": "Fintex mutaxassislari va dasturiy ta’minot muhandislari jamoasi tomonidan asos solingan holda, biz ikki tilda “gapira oladigan” platforma yaratishni maqsad qildik: ikkiyoqlama hisob yuritishning aniqligi va blokcheyn texnologiyasining dinamikasi.",
+            "p3": "Bugun Arzfy — mustaqil, ilg‘or texnologik kompaniya bo‘lib, birja egalari uchun eng muhim muammolarni: avtomatlashtirish, aniqlik va xavfsizlikni hal qilishga bag‘ishlangan. Biz shunchaki dastur yetkazib beruvchi emasmiz; biz — biznesingizning moliyaviy tayanchi."
+        },
+        "stats": {
+            "accuracy": "100% aniqlik",
+            "availability": "24/7 tizim mavjudligi",
+            "support": "Ko‘p-aktivli qo‘llab-quvvatlash",
+            "security": "Bank darajasidagi xavfsizlik"
+        },
+        "mission": {
+            "title": "Bizning missiyamiz",
+            "description": "Xavfsiz “All-in-One” platformani taqdim etish orqali birjalardagi moliyaviy tartibsizlikni bartaraf etish — nol buxgalteriya xatolari va uzluksiz aktiv boshqaruvini ta’minlash."
+        },
+        "vision": {
+            "title": "Bizning vizyonimiz",
+            "description": "Yaqin Sharq va undan tashqaridagi birjalar ishonadigan raqamli moliya bizneslari uchun global standart operatsion tizimga aylanish."
+        },
+        "contact": {
+            "title": "Bog‘lanish",
+            "subtitle": "Savollaringiz bormi? Sizdan eshitishdan xursand bo‘lamiz.",
+            "email": "Email:",
+            "phone": "Telefon:",
+            "address": "Manzil:",
+            "namePlaceholder": "Ism",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Xabaringizni yozing...",
+            "contactUs": "Biz bilan bog‘laning"
+        }
+    },
+    "licensing": {
+        "title": "Korporativ muvofiqlik va xavfsizlik",
+        "subtitle": "Shaffoflik bilan ishlash, global moliyaviy texnologiya standartlariga rioya qilish.",
+        "companyInfo": {
+            "title": "Kompaniya haqida ma’lumot",
+            "description": "Arzfy — raqamli aktiv birjalarini korporativ darajadagi buxgalteriya yechimlari bilan kuchaytirishga bag‘ishlangan global fintex provayderi. Platformamiz xalqaro sanoat standartlari va eng yaxshi amaliyotlar asosida qurilgan bo‘lib, butun dunyo bo‘ylab mijozlar uchun ma’lumotlar xavfsizligi, maxfiylik va operatsion ishonchlilikning eng yuqori darajasini kafolatlaydi.",
+            "companyname": "Kompaniya nomi: Arzfy Technology Solutions",
+            "registration": "Ro‘yxatdan o‘tish holati: Faol / Cheklangan javobgarlik kompaniyasi (LLC)",
+            "headquarters": "Bosh ofis: Turkiya",
+            "established": "Tashkil etilgan: 2024:"
+        }
+    },
+    "securityDataPrivacy": {
+        "title": "Xavfsizlik va ma’lumotlar maxfiyligi",
+        "description": "Biz ilg‘or shifrlash va global maxfiylik standartlari orqali moliyaviy operatsiyalar xavfsizligini ustuvor qilamiz.",
+        "sslEncryption": {
+            "title": "SSL/TLS shifrlash",
+            "description": "Barcha ma’lumot uzatish 256-bit SSL shifrlash bilan himoyalangan"
+        },
+        "gdprCompliant": {
+            "title": "GDPR’ga mos",
+            "description": "Foydalanuvchi maxfiyligini hurmat qilish uchun global ma’lumotlarni himoya qilish qoidalariga rioya qilamiz"
+        }
+    },
+    "contactSupport": {
+        "title": "Hali ham savollaringiz bormi?",
+        "subtitle": "Qo‘llab-quvvatlash jamoamiz bilan bog‘laning",
+        "messagePlaceholder": "Xabaringizni yozing...",
+        "send": "Yuborish"
+    },
+    "faqPage": {
+        "title": "Ko‘p so‘raladigan savollar",
+        "subtitle": "Arzfy haqida keng tarqalgan savollarga javob toping",
+        "noResults": "Qidiruvingizga mos savollar topilmadi.",
+        "categories": {
+            "general": "Umumiy",
+            "pricing": "Narxlar",
+            "technical": "Texnik",
+            "account": "Hisob",
+            "security": "Xavfsizlik",
+            "support": "Qo‘llab-quvvatlash"
+        },
+        "items": [
+            {
+                "question": "Arzfy’dan qanday boshlayman?",
+                "answer": "Arzfy’dan boshlash oson. Avval email manzilingiz bilan ro‘yxatdan o‘tib, hisob yarating. So‘ng, hisobingiz xavfsizligini ta’minlash uchun verifikatsiya jarayonini yakunlang. Tasdiqlangandan keyin, funksiyalarni o‘rganib chiqishingiz va platformada savdoni boshlashingiz mumkin.",
+                "category": "Umumiy"
+            },
+            {
+                "question": "Tizim talablari qanday?",
+                "answer": "Arzfy ko‘pchilik zamonaviy qurilmalarda ishlaydi. Desktop uchun Windows 10 yoki keyingi, macOS 10.14 yoki keyingi, yoki zamonaviy Linux distributivi kerak. Mobil uchun iOS 12 yoki keyingi va Android 8.0 yoki keyingi qo‘llab-quvvatlanadi. Eng yaxshi tajriba uchun barqaror internet tavsiya etiladi.",
+                "category": "Texnik"
+            },
+            {
+                "question": "Boshqa birja platformasidan migratsiya qila olamanmi?",
+                "answer": "Ha, boshqa birja platformalaridan migratsiya qilishingiz mumkin. Savdo tarixingiz va hisob ma’lumotlaringizni ko‘chirish uchun migratsiya vositalari va yordam taqdim etamiz. Migratsiya bo‘yicha yordam uchun qo‘llab-quvvatlash jamoamizga murojaat qiling.",
+                "category": "Hisob"
+            },
+            {
+                "question": "Qaysi to‘lov usullarini qabul qilasiz?",
+                "answer": "Biz kredit kartalar, debet kartalar, bank o‘tkazmalari va mashhur kriptovalyutalarni o‘z ichiga olgan turli to‘lov usullarini qabul qilamiz. Barcha tranzaksiyalar shifrlangan to‘lov shlyuzi orqali xavfsiz tarzda amalga oshiriladi. Hududingizda mavjud variantlar uchun to‘lov usullari sahifasini tekshiring.",
+                "category": "Narxlar"
+            },
+            {
+                "question": "Bepul sinov (trial) bormi?",
+                "answer": "Ha, yangi foydalanuvchilar uchun bepul sinov muddati mavjud. Sinov davomida barcha funksiyalarni ko‘rib chiqib, platformani his qilib ko‘rishingiz mumkin. Sinov odatda 14 kun davom etadi — xizmatlarimizni baholash uchun yetarli vaqt.",
+                "category": "Narxlar"
+            },
+            {
+                "question": "Arzfy qanchalik xavfsiz?",
+                "answer": "Xavfsizlik — bizning ustuvor vazifamiz. Ma’lumotlaringiz va mablag‘laringizni himoya qilish uchun sanoat darajasidagi shifrlash, ikki bosqichli autentifikatsiya va muntazam xavfsizlik auditlaridan foydalanamiz. Barcha tranzaksiyalar 24/7 kuzatib boriladi va ma’lumotingiz xavfsiz bo‘lishi uchun qat’iy muvofiqlik standartlariga amal qilamiz.",
+                "category": "Xavfsizlik"
+            },
+            {
+                "question": "Rejamni yangilash yoki pasaytirishim mumkinmi?",
+                "answer": "Albatta! Istalgan vaqtda obuna rejangizni yangilashingiz yoki pasaytirishingiz mumkin. O‘zgarishlar keyingi billing siklida aks etadi. Yangilasangiz, yangi funksiyalarga darhol kirish olasiz. Pasaytirsangiz, o‘zgarishlar keyingi billing davri boshida kuchga kiradi.",
+                "category": "Narxlar"
+            },
+            {
+                "question": "Qanday qo‘llab-quvvatlashni taqdim etasiz?",
+                "answer": "Biz bir nechta kanallar orqali keng qamrovli yordam beramiz. Qo‘llab-quvvatlash jamoamiz 24/7 live chat, email va telefon orqali mavjud. Shuningdek, hujjatlar, video qo‘llanmalar va bilim bazasini taqdim etamiz — tez-tez uchraydigan savollarga tez javob topishingiz uchun.",
+                "category": "Qo‘llab-quvvatlash"
+            },
+            {
+                "question": "Parolimni qanday tiklayman?",
+                "answer": "Parolni tiklash uchun login sahifasidagi 'Forgot Password' havolasini bosing. Email manzilingizni kiriting va biz parolni tiklash havolasini yuboramiz. Emaildagi ko‘rsatmalar bo‘yicha yangi parol yarating. Xavfsizlik uchun kuchli va noyob paroldan foydalaning.",
+                "category": "Hisob"
+            },
+            {
+                "question": "Ikki bosqichli autentifikatsiya nima?",
+                "answer": "Ikki bosqichli autentifikatsiya (2FA) hisobingizga qo‘shimcha xavfsizlik qatlamini qo‘shadi. Yoqilganda, kirish uchun parolingiz bilan birga mobil qurilmangizdagi tasdiqlash kodini ham kiritishingiz kerak bo‘ladi. Ruxsatsiz kirishning oldini olish uchun 2FA’ni yoqishni qat’iy tavsiya qilamiz.",
+                "category": "Xavfsizlik"
+            },
+            {
+                "question": "Mijozlarni qo‘llab-quvvatlash bilan qanday bog‘lansam bo‘ladi?",
+                "answer": "Mijozlarni qo‘llab-quvvatlash jamoamiz bilan bir nechta kanal orqali bog‘lanishingiz mumkin: veb-saytimizda 24/7 live chat, support@arzfy.com email manzili yoki +1 (555) 123-4567 telefon raqami. Jamoamiz odatda email orqali 24 soat ichida, live chat orqali esa darhol javob beradi.",
+                "category": "Qo‘llab-quvvatlash"
+            },
+            {
+                "question": "Tranzaksiya komissiyalari qanday?",
+                "answer": "Tranzaksiya komissiyalari obuna rejangiz va tranzaksiya turiga bog‘liq. Odatda komissiya har bir tranzaksiya uchun 0.1% dan 0.5% gacha bo‘ladi. Premium rejalar pastroq komissiyalarni taklif qiladi. Batafsil ma’lumot uchun narxlar sahifasini ko‘ring yoki qo‘llab-quvvatlash bilan bog‘laning.",
+                "category": "Narxlar"
+            }
+        ]
+    }
+}

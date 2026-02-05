@@ -1,0 +1,344 @@
+{
+    "common": {
+      "home": "首页",
+      "pricing": "定价",
+      "services": "帮助中心",
+      "features": "功能特色",
+      "about": "关于我们",
+      "faq": "常见问题",
+      "blog": "博客",
+      "licensing": "许可与合规",
+      "login": "登录",
+      "signUp": "注册",
+      "getStarted": "开始使用",
+      "watchDemo": "观看演示",
+      "selectPlan": "选择方案",
+      "contactUs": "联系我们",
+      "send": "发送",
+      "search": "搜索…",
+      "learnMore": "隐私政策",
+      "privacyPolicy": "服务条款",
+      "termsOfUse": "安全",
+      "allRightsReserved": "保留所有权利",
+      "downloadApp": "下载应用"
+    },
+    "navbar": {
+      "home": "首页",
+      "pricing": "定价",
+      "services": "系统状态",
+      "about": "关于我们",
+      "faq": "常见问题",
+      "blog": "博客",
+      "licensing": "许可与合规",
+      "login": "开始使用",
+      "signUp": "注册"
+    },
+    "hero": {
+      "title": "面向加密与法币交易所的终极会计操作系统",
+      "subtitle": "在一个安全的平台中管理资产、实时追踪盈亏（P&L），并高效梳理日常运营。为会计而生，为交易所负责人打造。",
+      "getStarted": "申请演示",
+      "watchDemo": "查看工作原理",
+      "uptimeTitle": "最高 99.99% 可用性",
+      "importTime": "会计数据导入少于 5 分钟。",
+      "years": "支持的资产",
+      "uptime": "加密、法币、黄金与原油",
+      "realUsers": "会计错误",
+      "trustUs": "自动化复式记账系统",
+      "min": "5 分钟",
+      "hundred": "100+",
+      "zero": "零",
+      "days": "迁移时间",
+      "noIncidents": "快速且安全的数据导入"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "secureTrading": "无缝迁移",
+      "secureTradingDesc": "通过 4 步智能导入向导，几分钟内切换到 Arzfy。保证不丢失数据。",
+      "fastProcessing": "多资产引擎",
+      "fastProcessingDesc": "在一个统一的会计仪表盘中管理加密、法币、黄金与原油业务。",
+      "scalableSystem": "基于角色的安全控制",
+      "scalableSystemDesc": "为负责人、会计与出纳设置精确的权限级别，保护敏感数据。",
+      "support24": "实时盈亏（P&L）",
+      "support24Desc": "即时查看每笔交易的利润与亏损报表，并按资产类型与分支机构进行拆分。"
+    },
+    "subscriptionPlans": {
+      "title": "面向每一家交易所的透明定价",
+      "subtitle": "选择适合您业务量的方案。无隐藏费用。随时升级。",
+      "oneMonth": "1 个月",
+      "threeMonth": "3 个月",
+      "oneYear": "1 年",
+      "perMonth": "每月",
+      "perThreeMonths": "每 3 个月",
+      "perYear": "每年",
+      "selectPlan": "选择方案",
+      "economic": {
+        "name": "入门版",
+        "features": [
+          "1 个用户（可扩展）",
+          "150 个对手方账户",
+          "基础报表",
+          "标准支持",
+          "每增加 1 个用户 +$59"
+        ]
+      },
+      "professional": {
+        "name": "专业版",
+        "features": [
+          "3 个用户（可扩展）",
+          "对手方无限",
+          "基础 + 高级报表",
+          "优先工单支持",
+          "每增加 1 个用户 +$59"
+        ]
+      },
+      "superGold": {
+        "name": "企业版",
+        "features": [
+          "用户无限",
+          "对手方无限",
+          "全部报表 + 分析工具",
+          "电话 + 工单支持",
+          "每增加 1 个用户 +$59"
+        ]
+      }
+    },
+    "testimonials": {
+      "title": "Arzfy 适合谁？",
+      "testimonial1": {
+        "quote": "以稳健的财务基础启动您的交易所。配置通用的会计角色，并通过我们的预设方案立即开始运营。",
+        "name": "适合加密初创团队"
+      },
+      "testimonial2": {
+        "quote": "针对涉及黄金、原油与法币汇款的复杂业务，提供银行级安全与面向大型团队的角色权限控制。",
+        "name": "适合企业级交易所"
+      }
+    },
+    "downloadApp": {
+      "title": "随时随地掌控您的交易所",
+      "description": "实时追踪利润、管理支持工单，并在手机上监控用户活动。支持 iOS 与 Android。",
+      "downloadApp": "下载应用"
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "Arzfy 只适用于加密交易所吗？",
+          "answer": "不是。Arzfy 是多资产会计平台。我们在一个统一的仪表盘中全面支持法币（现金/银行）、黄金、原油与加密货币业务。"
+        },
+        {
+          "question": "从 Excel 或其他软件迁移数据有多难？",
+          "answer": "少于 5 分钟即可完成。我们的智能 4 步迁移向导可安全导入用户数据与财务记录，确保零数据丢失。"
+        },
+        {
+          "question": "我可以为员工设置不同的权限级别吗？",
+          "answer": "可以。Arzfy 提供先进的基于角色的访问控制（RBAC）。您可为负责人、会计、出纳与分支经理设置专属权限。"
+        },
+        {
+          "question": "我的财务数据安全吗？",
+          "answer": "安全是我们的首要任务。我们采用银行级加密、自动化每日备份与严格的隐私协议，确保您的财务记录安全且保密。"
+        },
+        {
+          "question": "我需要在电脑上安装软件吗？",
+          "answer": "不需要。Arzfy 是云端平台。您可在世界任何地方，从任何设备安全访问会计面板。"
+        }
+      ]
+    },
+    "serverUptime": {
+      "title": "银行级基础设施",
+      "subtitle": "依托高可用架构，我们保证 99.99% 可用性。",
+      "subtitle1": "您的交易所从不休息，我们也一样。",
+      "daysAgo": "60 天前",
+      "today": "今天"
+    },
+    "footer": {
+      "quickLinks": "快速链接",
+      "resources": "资源",
+      "followUs": "关注我们",
+      "description": "Arzfy 是面向现代交易所打造的领先一体化会计平台。我们帮助企业以银行级安全与实时财务洞察管理加密、法币与黄金资产。",
+      "copyright": "© 2026 Arzfy Inc. 保留所有权利。"
+    },
+    "pricing": {
+      "hero": {
+        "title": "选择最适合您的方案",
+        "subtitle": "为您的业务需求找到合适的解决方案"
+      },
+      "faq": {
+        "title": "定价常见问题",
+        "items": [
+          {
+            "question": "我可以升级或降级我的方案吗？",
+            "answer": "当然可以。随着交易所发展，您可以随时升级方案，或在面板中即时增加更多用户许可。"
+          },
+          {
+            "question": "如果我错过付款会怎样？",
+            "answer": "我们提供 7 天宽限期，以确保您的交易所运营不被中断。之后，访问将被限制为“只读”模式。"
+          },
+          {
+            "question": "你们提供免费试用吗？",
+            "answer": "是的，“入门版”包含 14 天免费试用，让您无风险体验 Arzfy 的强大功能。"
+          }
+        ]
+      },
+      "featureComparison": {
+        "title": "功能对比",
+        "feature": "功能",
+        "economic": "经济版",
+        "popular": "热门版",
+        "superGold": "Super Gold",
+        "numberOfUsers": "用户数量",
+        "counterparty": "对手方",
+        "basicReports": "基础报表",
+        "advancedReports": "高级报表",
+        "financialAnalytics": "财务分析",
+        "support": "支持",
+        "available": "可用",
+        "ticket": "工单",
+        "ticketCall": "工单/电话",
+        "exclusive": "专属",
+        "unlimited": "无限"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "赋能数字交易所的未来",
+        "subtitle": "以智能会计解决方案连接传统金融与加密经济。"
+      },
+      "ourStory": {
+        "title": "我们的故事",
+        "p1": "Arzfy 源于一个简单的洞察：传统会计软件无法跟上加密货币交易所的速度与复杂度。",
+        "p2": "由一支金融科技专家与软件工程师团队创立，我们致力于打造一款“懂两种语言”的平台：复式记账的严谨与区块链的动态。",
+        "p3": "如今，Arzfy 是一家独立、前沿的科技公司，专注解决交易所负责人最关键的挑战：自动化、准确性与安全性。我们不仅是软件提供商，更是您业务的财务骨干。"
+      },
+      "stats": {
+        "accuracy": "100% 准确",
+        "availability": "系统 24/7 可用",
+        "support": "多资产支持",
+        "security": "银行级安全"
+      },
+      "mission": {
+        "title": "我们的使命",
+        "description": "通过安全的“一体化”平台消除交易所财务混乱，实现零会计错误与无缝资产管理。"
+      },
+      "vision": {
+        "title": "我们的愿景",
+        "description": "成为数字金融企业的全球标准操作系统，赢得中东及更广泛地区交易所的信赖。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "subtitle": "有问题？我们很乐意为您解答。",
+        "email": "邮箱：",
+        "phone": "电话：",
+        "address": "地址：",
+        "namePlaceholder": "姓名",
+        "emailPlaceholder": "邮箱",
+        "messagePlaceholder": "请输入您的留言…",
+        "contactUs": "联系我们"
+      }
+    },
+    "licensing": {
+      "title": "企业合规与安全",
+      "subtitle": "以透明方式运营，遵循全球金融科技标准。",
+      "companyInfo": {
+        "title": "公司信息",
+        "description": "Arzfy 是全球金融科技服务商，致力于以企业级会计解决方案赋能数字资产交易所。我们的平台基于国际行业标准与最佳实践构建，以保障全球客户最高级别的数据安全、隐私保护与运营可靠性。",
+        "companyname": "公司名称：Arzfy Technology Solutions",
+        "registration": "注册状态：有效 / 有限责任公司（LLC）",
+        "headquarters": "总部：土耳其",
+        "established": "成立：2024："
+      }
+    },
+    "securityDataPrivacy": {
+      "title": "安全与数据隐私",
+      "description": "我们通过先进加密与全球隐私标准，将金融运营安全置于首位。",
+      "sslEncryption": {
+        "title": "SSL/TLS 加密",
+        "description": "所有数据传输均受 256 位 SSL 加密保护"
+      },
+      "gdprCompliant": {
+        "title": "符合 GDPR",
+        "description": "我们遵循全球数据保护法规，尊重用户隐私"
+      }
+    },
+    "contactSupport": {
+      "title": "还有疑问？",
+      "subtitle": "联系我们的支持团队",
+      "messagePlaceholder": "请输入您的留言…",
+      "send": "发送"
+    },
+    "faqPage": {
+      "title": "常见问题",
+      "subtitle": "查找关于 Arzfy 的常见问题解答",
+      "noResults": "未找到与搜索匹配的问题。",
+      "categories": {
+        "general": "通用",
+        "pricing": "定价",
+        "technical": "技术",
+        "account": "账户",
+        "security": "安全",
+        "support": "支持"
+      },
+      "items": [
+        {
+          "question": "如何开始使用 Arzfy？",
+          "answer": "开始使用 Arzfy 非常简单。首先使用邮箱注册创建账户，然后完成验证流程以确保账户安全。验证完成后，您即可探索功能并开始使用平台。",
+          "category": "通用"
+        },
+        {
+          "question": "系统要求是什么？",
+          "answer": "Arzfy 可在大多数现代设备上运行。桌面端需要 Windows 10 或更高版本、macOS 10.14 或更高版本，或现代 Linux 发行版。移动端支持 iOS 12 或更高版本与 Android 8.0 或更高版本。建议使用稳定的互联网连接以获得最佳体验。",
+          "category": "技术"
+        },
+        {
+          "question": "我可以从其他交易所平台迁移吗？",
+          "answer": "可以。我们提供迁移工具与支持，帮助您转移交易历史与账户数据。请联系支持团队获取迁移协助。",
+          "category": "账户"
+        },
+        {
+          "question": "你们接受哪些付款方式？",
+          "answer": "我们接受多种付款方式，包括信用卡、借记卡、银行转账以及常见加密货币。所有交易都通过加密支付网关安全处理。各地区可用选项请查看付款方式页面。",
+          "category": "定价"
+        },
+        {
+          "question": "是否提供免费试用？",
+          "answer": "是的，我们为新用户提供免费试用期。在试用期间，您可以体验全部功能并了解平台。试用期通常为 14 天。",
+          "category": "定价"
+        },
+        {
+          "question": "Arzfy 有多安全？",
+          "answer": "安全是我们的首要任务。我们使用行业领先的加密、双重身份验证以及定期安全审计来保护您的数据与资金。所有交易 24/7 监控，并遵循严格的合规标准，确保信息安全。",
+          "category": "安全"
+        },
+        {
+          "question": "我可以升级或降级我的方案吗？",
+          "answer": "当然可以！您可随时升级或降级订阅方案。变更会在下一个计费周期生效。升级后可立即使用新功能；降级则在下个计费周期开始时生效。",
+          "category": "定价"
+        },
+        {
+          "question": "你们提供什么样的支持？",
+          "answer": "我们提供多渠道的全面支持。支持团队 24/7 通过在线聊天、邮箱与电话提供帮助。我们还提供文档、视频教程与知识库，方便您快速查找答案。",
+          "category": "支持"
+        },
+        {
+          "question": "如何重置我的密码？",
+          "answer": "在登录页面点击“忘记密码”，输入您的邮箱，我们会发送密码重置链接。按照邮件中的步骤设置新密码。为更高安全性，请使用强且唯一的密码。",
+          "category": "账户"
+        },
+        {
+          "question": "什么是双重身份验证？",
+          "answer": "双重身份验证（2FA）会为您的账户增加一层额外安全保护。启用后，登录时除了密码，还需要输入来自手机的验证码。我们强烈建议开启 2FA 以防止未授权访问。",
+          "category": "安全"
+        },
+        {
+          "question": "如何联系客户支持？",
+          "answer": "您可以通过多种方式联系我们的客户支持：网站 24/7 在线聊天、邮箱 support@arzfy.com，或电话 +1 (555) 123-4567。我们通常在 24 小时内通过邮箱回复，并在在线聊天中即时响应。",
+          "category": "支持"
+        },
+        {
+          "question": "交易手续费是多少？",
+          "answer": "手续费因订阅方案与交易类型而异。通常每笔交易在 0.1% 到 0.5% 之间。高级方案可享更低费率。详情请查看定价页面或联系支持团队。",
+          "category": "定价"
+        }
+      ]
+    }
+  }
+  
